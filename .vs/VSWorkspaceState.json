@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ToolTestData",
+    "\\ToolTestData\\ToolTestData",
+    "\\ToolTestData\\ToolTestData\\View",
+    "\\ToolTestData\\ToolTestData\\View\\Menu"
+  ],
+  "SelectedNode": "\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs",
+  "PreviewInSolutionExplorer": false
+}
