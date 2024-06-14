@@ -268,3 +268,4 @@ D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows
 D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.LuotSuIn.LuotSuInForm.resources

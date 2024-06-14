@@ -4,5 +4,8 @@
     <Compile Update="View\Menu\RibbonForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\NhapLieu\LuotSuIn\LuotSuInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\nhaplieu\\luotsuin\\luotsuinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\nhaplieu\\luotsuin\\luotsuinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\nhaplieu\\luotsuin\\luotsuinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\nhaplieu\\luotsuin\\luotsuinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\models\\clscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\models\\clscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\controller\\nhaplieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\controller\\nhaplieucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\tooltestdata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -22,35 +38,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LuotSuInForm.cs",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs",
+              "RelativeToolTip": "ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAMwAwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T08:22:23.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LuotSuInForm.cs [Design]",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs [Design]",
+              "RelativeToolTip": "ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T08:20:37.497Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClsContext.cs",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsContext.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\Models\\ClsContext.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsContext.cs",
+              "RelativeToolTip": "ToolTestData\\Models\\ClsContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T07:20:47.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NhapLieuController.cs",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Controller\\NhapLieuController.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\Controller\\NhapLieuController.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Controller\\NhapLieuController.cs",
+              "RelativeToolTip": "ToolTestData\\Controller\\NhapLieuController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T07:17:18.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "RibbonForm.cs",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\Menu\\RibbonForm.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs",
+              "RelativeToolTip": "ToolTestData\\View\\Menu\\RibbonForm.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAkwDwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T07:05:28.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "RibbonForm.cs [Design]",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\Menu\\RibbonForm.cs",
               "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs [Design]",
               "RelativeToolTip": "ToolTestData\\View\\Menu\\RibbonForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T06:11:31.542Z"
+              "WhenOpened": "2024-06-14T06:11:31.542Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Program.cs",
-              "RelativeDocumentMoniker": "ToolTestData\\Program.cs",
-              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Program.cs",
-              "RelativeToolTip": "ToolTestData\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-14T04:19:53.714Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ToolTestData.csproj",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj",
               "RelativeDocumentMoniker": "ToolTestData\\ToolTestData.csproj",
