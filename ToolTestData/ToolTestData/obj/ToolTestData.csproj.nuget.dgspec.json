@@ -56,6 +56,26 @@
             "DevExpress.Win.Design": {
               "target": "Package",
               "version": "[21.2.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
             }
           },
           "imports": [
@@ -73,7 +93,7 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },
-            "Microsoft.WindowsDesktop.App": {
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
               "privateAssets": "none"
             }
           },
