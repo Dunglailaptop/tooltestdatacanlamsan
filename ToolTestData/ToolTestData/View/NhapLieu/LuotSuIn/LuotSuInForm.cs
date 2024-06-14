@@ -8,19 +8,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ToolTestData.Controller;
+using ToolTestData.Models;
 
 namespace ToolTestData.View.NhapLieu.LuotSuIn
 {
     public partial class LuotSuInForm : DevExpress.XtraEditors.XtraForm
     {
+        
         public LuotSuInForm()
         {
+           
             InitializeComponent();
+            
         }
 
-        private void LuotSuInForm_Load(object sender, EventArgs e)
+        private async void LuotSuInForm_Load(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

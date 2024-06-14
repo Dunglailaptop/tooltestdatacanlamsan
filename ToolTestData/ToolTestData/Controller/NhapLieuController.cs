@@ -17,11 +17,11 @@ namespace ToolTestData.Controller
             _clsContext = clsContext;
         }
 
-        public async Task<List<ClsPhieuChiDinh>> GetDataPhieuChiDinhAsync()
+        public async Task<List<MayTram>> GetDataMayTramAsync()
         {
-            List<ClsPhieuChiDinh> clsPhieuChiDinhs = new List<ClsPhieuChiDinh>();
+            List<MayTram> clsPhieuChiDinhs = new List<MayTram>();
 
-            clsPhieuChiDinhs = _clsContext.ClsPhieuChiDinhs.ToList();
+            clsPhieuChiDinhs = _clsContext.MayTrams.ToList();
 
             return clsPhieuChiDinhs;
         }
