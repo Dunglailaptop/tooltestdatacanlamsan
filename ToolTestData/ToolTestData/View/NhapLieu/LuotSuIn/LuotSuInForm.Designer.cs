@@ -37,24 +37,28 @@
             // gridControl1
             // 
             gridControl1.Dock = DockStyle.Fill;
+            gridControl1.EmbeddedNavigator.Margin = new Padding(4);
             gridControl1.Location = new Point(0, 0);
             gridControl1.MainView = gridView1;
+            gridControl1.Margin = new Padding(4);
             gridControl1.Name = "gridControl1";
-            gridControl1.Size = new Size(776, 268);
+            gridControl1.Size = new Size(779, 312);
             gridControl1.TabIndex = 0;
             gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
             // 
             // gridView1
             // 
+            gridView1.DetailHeight = 431;
             gridView1.GridControl = gridControl1;
             gridView1.Name = "gridView1";
             // 
             // LuotSuInForm
             // 
-            AutoScaleDimensions = new SizeF(6F, 13F);
+            AutoScaleDimensions = new SizeF(7F, 16F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(776, 268);
+            ClientSize = new Size(779, 312);
             Controls.Add(gridControl1);
+            Margin = new Padding(4);
             Name = "LuotSuInForm";
             Text = "LuotSuInForm";
             Load += LuotSuInForm_Load;

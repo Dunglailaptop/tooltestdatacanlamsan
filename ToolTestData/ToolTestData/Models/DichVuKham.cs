@@ -69,5 +69,5 @@ public partial class DichVuKham
 
     public int NguoiCapNhat { get; set; }
 
-    public bool DoiLoaiModality { get; set; }
+    public bool DoiLoaiPhuongThuc { get; set; }
 }

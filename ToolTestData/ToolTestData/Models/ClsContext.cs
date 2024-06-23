@@ -95,6 +95,26 @@ public partial class ClsContext : DbContext
 
     public virtual DbSet<ClsLoaiPhieuChiDinh> ClsLoaiPhieuChiDinhs { get; set; }
 
+    public virtual DbSet<ClsNhmChiTietLoMau> ClsNhmChiTietLoMaus { get; set; }
+
+    public virtual DbSet<ClsNhmDanhMucMau> ClsNhmDanhMucMaus { get; set; }
+
+    public virtual DbSet<ClsNhmKho> ClsNhmKhos { get; set; }
+
+    public virtual DbSet<ClsNhmLoMau> ClsNhmLoMaus { get; set; }
+
+    public virtual DbSet<ClsNhmLoaiChePham> ClsNhmLoaiChePhams { get; set; }
+
+    public virtual DbSet<ClsNhmMaSanPhamIsbt> ClsNhmMaSanPhamIsbts { get; set; }
+
+    public virtual DbSet<ClsNhmNhaCungCap> ClsNhmNhaCungCaps { get; set; }
+
+    public virtual DbSet<ClsNhmNhomMauTheoIsbt> ClsNhmNhomMauTheoIsbts { get; set; }
+
+    public virtual DbSet<ClsNhmPhanLoaiChePham> ClsNhmPhanLoaiChePhams { get; set; }
+
+    public virtual DbSet<ClsNhmYeuCauLinh> ClsNhmYeuCauLinhs { get; set; }
+
     public virtual DbSet<ClsPhanLoaiNhomDichVu> ClsPhanLoaiNhomDichVus { get; set; }
 
     public virtual DbSet<ClsPhienLamViec> ClsPhienLamViecs { get; set; }
@@ -313,7 +333,7 @@ public partial class ClsContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseNpgsql("Host=localhost;Database=CLS;Username=postgres;Password=1234");
+        => optionsBuilder.UseNpgsql("Host=localhost;Database=CLS;Username=postgres;Password=1234;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -1105,6 +1125,181 @@ public partial class ClsContext : DbContext
             entity.Property(e => e.TrangThai).HasDefaultValue(true);
         });
 
+        modelBuilder.Entity<ClsNhmChiTietLoMau>(entity =>
+        {
+            entity.HasKey(e => e.MaSoChiTietLoMau).HasName("CLS_NHM_ChiTietLoMau_pkey");
+
+            entity.ToTable("CLS_NHM_ChiTietLoMau");
+
+            entity.Property(e => e.Isbt128).HasColumnName("ISBT128");
+            entity.Property(e => e.MaChiTietLoMau).HasMaxLength(50);
+            entity.Property(e => e.NgayNhap).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.TenLoMau).HasMaxLength(150);
+        });
+
+        modelBuilder.Entity<ClsNhmDanhMucMau>(entity =>
+        {
+            entity.HasKey(e => e.MaSoDanhMucMau).HasName("CLS_NHM_DanhMucMau_pkey");
+
+            entity.ToTable("CLS_NHM_DanhMucMau");
+
+            entity.Property(e => e.CoHieuLuc).HasDefaultValue(true);
+            entity.Property(e => e.Gia).HasPrecision(65, 30);
+            entity.Property(e => e.MaDanhMucMau).HasMaxLength(50);
+            entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.TenDanhMucMau).HasMaxLength(255);
+            entity.Property(e => e.TenVietTatDanhMucMau).HasMaxLength(255);
+        });
+
+        modelBuilder.Entity<ClsNhmKho>(entity =>
+        {
+            entity.HasKey(e => e.MaSoKho).HasName("CLS_NHM_Kho_pkey");
+
+            entity.ToTable("CLS_NHM_Kho");
+
+            entity.Property(e => e.MaKho).HasMaxLength(50);
+            entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.TenKho).HasMaxLength(255);
+            entity.Property(e => e.TrangThai).HasDefaultValue(true);
+        });
+
+        modelBuilder.Entity<ClsNhmLoMau>(entity =>
+        {
+            entity.HasKey(e => e.MaSoLoMau).HasName("CLS_NHM_LoMau_pkey");
+
+            entity.ToTable("CLS_NHM_LoMau");
+
+            entity.Property(e => e.MaLoMau).HasMaxLength(50);
+            entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.SoBienLai).HasMaxLength(50);
+            entity.Property(e => e.TranhThaiHieuLuc).HasDefaultValue(true);
+        });
+
+        modelBuilder.Entity<ClsNhmLoaiChePham>(entity =>
+        {
+            entity.HasKey(e => e.MaSoLoaiChePham).HasName("CLS_NHM_LoaiChePham_pkey");
+
+            entity.ToTable("CLS_NHM_LoaiChePham");
+
+            entity.Property(e => e.DichVuPuc).HasColumnName("DichVuPUC");
+            entity.Property(e => e.DichVuPucboSung).HasColumnName("DichVuPUCBoSung");
+            entity.Property(e => e.DinhNmbangGiay1).HasColumnName("DinhNMBangGiay1");
+            entity.Property(e => e.DinhNmbangGiay2).HasColumnName("DinhNMBangGiay2");
+            entity.Property(e => e.DuTruDvtheTich)
+                .HasDefaultValue(true)
+                .HasColumnName("DuTruDVTheTich");
+            entity.Property(e => e.LoaiPucth).HasColumnName("LoaiPUCTH");
+            entity.Property(e => e.MaLoaiChePham).HasMaxLength(50);
+            entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.OngAgh).HasColumnName("OngAGH");
+            entity.Property(e => e.OngMtmuoi).HasColumnName("OngMTMuoi");
+            entity.Property(e => e.PucmacDinh).HasColumnName("PUCMacDinh");
+            entity.Property(e => e.TenLoaiChePham).HasMaxLength(255);
+            entity.Property(e => e.TrangThai).HasDefaultValue(true);
+        });
+
+        modelBuilder.Entity<ClsNhmMaSanPhamIsbt>(entity =>
+        {
+            entity.HasKey(e => e.MaSoMaSanPhamIsbt).HasName("CLS_NHM_MaSanPhamISBT_pkey");
+
+            entity.ToTable("CLS_NHM_MaSanPhamISBT");
+
+            entity.Property(e => e.MaSoMaSanPhamIsbt).HasColumnName("MaSoMaSanPhamISBT");
+            entity.Property(e => e.MaMaSanPhamIsbt)
+                .HasMaxLength(50)
+                .HasColumnName("MaMaSanPhamISBT");
+            entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.TenMaSanPhamIsbt)
+                .HasMaxLength(50)
+                .HasColumnName("TenMaSanPhamISBT");
+            entity.Property(e => e.TrangThai).HasDefaultValue(true);
+        });
+
+        modelBuilder.Entity<ClsNhmNhaCungCap>(entity =>
+        {
+            entity.HasKey(e => e.MaSoNhaCungCap).HasName("CLS_NHM_NhaCungCap_pkey");
+
+            entity.ToTable("CLS_NHM_NhaCungCap");
+
+            entity.Property(e => e.CoHieuLuc).HasDefaultValue(true);
+            entity.Property(e => e.Isbt128)
+                .HasDefaultValue(false)
+                .HasColumnName("ISBT128");
+            entity.Property(e => e.MaNhaCungCap).HasMaxLength(50);
+            entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.TenNhaCungCap).HasMaxLength(255);
+            entity.Property(e => e.TuiMauCuaBenhNhan).HasDefaultValue(false);
+        });
+
+        modelBuilder.Entity<ClsNhmNhomMauTheoIsbt>(entity =>
+        {
+            entity.HasKey(e => e.MaSoNhomMauTheoIsbt).HasName("CLS_NHM_NhomMauTheoISBT_pkey");
+
+            entity.ToTable("CLS_NHM_NhomMauTheoISBT");
+
+            entity.Property(e => e.MaSoNhomMauTheoIsbt).HasColumnName("MaSoNhomMauTheoISBT");
+            entity.Property(e => e.MaNhomMauTheoIsbt)
+                .HasMaxLength(50)
+                .HasColumnName("MaNhomMauTheoISBT");
+            entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.TenNhomMauTheoIsbt)
+                .HasMaxLength(50)
+                .HasColumnName("TenNhomMauTheoISBT");
+            entity.Property(e => e.TrangThai).HasDefaultValue(true);
+            entity.Property(e => e.YeuToRh).HasColumnName("YeuToRH");
+        });
+
+        modelBuilder.Entity<ClsNhmPhanLoaiChePham>(entity =>
+        {
+            entity.HasKey(e => e.MaSoPhanLoaiChePham).HasName("CLS_NHM_PhanLoaiChePham_pkey");
+
+            entity.ToTable("CLS_NHM_PhanLoaiChePham");
+
+            entity.Property(e => e.MaPhanLoaiChePham).HasMaxLength(50);
+            entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.TenPhanLoaiChePham).HasMaxLength(255);
+            entity.Property(e => e.TrangThai).HasDefaultValue(true);
+        });
+
+        modelBuilder.Entity<ClsNhmYeuCauLinh>(entity =>
+        {
+            entity.HasKey(e => e.MaSoYeuCauLinh).HasName("CLS_NHM_YeuCauLinh_pkey");
+
+            entity.ToTable("CLS_NHM_YeuCauLinh");
+
+            entity.Property(e => e.MaYeuCauLinh).HasMaxLength(50);
+            entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayTao)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP")
+                .HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.NgayYeuCau).HasColumnType("timestamp(3) without time zone");
+            entity.Property(e => e.TrangThai).HasDefaultValue(true);
+        });
+
         modelBuilder.Entity<ClsPhanLoaiNhomDichVu>(entity =>
         {
             entity.HasKey(e => e.MaSoPhanLoaiNhomDichVu).HasName("CLS_PhanLoaiNhomDichVu_pkey");
@@ -1643,7 +1838,7 @@ public partial class ClsContext : DbContext
             entity.HasIndex(e => e.MaDichVuBenhVien, "DichVuKham_MaDichVuBenhVien_key").IsUnique();
 
             entity.Property(e => e.ApDungChoGioiTinh).HasDefaultValue(0);
-            entity.Property(e => e.DoiLoaiModality).HasDefaultValue(true);
+            entity.Property(e => e.DoiLoaiPhuongThuc).HasDefaultValue(true);
             entity.Property(e => e.GhiChu).HasMaxLength(255);
             entity.Property(e => e.GiaBhyttv)
                 .HasPrecision(65, 30)

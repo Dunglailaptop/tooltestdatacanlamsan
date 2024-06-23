@@ -1,4 +1,5 @@
-﻿using DevExpress.XtraBars;
+﻿using DevExpress.CodeParser;
+using DevExpress.XtraBars;
 using DevExpress.XtraRichEdit.Commands.Internal;
 using System;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolTestData.Models;
+using ToolTestData.Presenters;
 using ToolTestData.View.NhapLieu.LuotSuIn;
 
 namespace ToolTestData.View.Menu
@@ -37,11 +39,19 @@ namespace ToolTestData.View.Menu
                     return;
                 }
             }
-
+         
             // Create an instance of the form and show it
             Form form = (Form)Activator.CreateInstance(childType);
+            if (form is LuotSuInForm luotSuInForm)
+            {
+                // Initialize the context and presenter if the form is LuotSuInForm
+                ClsContext context = new ClsContext();
+                new LuotSuInPresenter(luotSuInForm, context);
+            }
+
             form.MdiParent = this;
             form.Show();
+       
         }
 
 
