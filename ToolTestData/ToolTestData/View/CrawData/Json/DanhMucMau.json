@@ -1,0 +1,233 @@
+[
+    {
+        "ID": "56181185",
+        "Ma": "KTC01",
+        "Ten": "Túi Tiểu Cầu [40ml]",
+        "Tenviettat": "Túi Tiểu Cầu [40ml]",
+        "Loai": "Máu",
+        "Thetich": "40 ml",
+        "Gia": "449,167 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "0"
+    },
+    {
+        "ID": "56181188",
+        "Ma": "KTC1",
+        "Ten": "Chi phí điều chế Khối tiểu cầu gạn tách [40ml]",
+        "Tenviettat": "Chi phí điều chế Khối tiểu cầu gạn tách [40ml]",
+        "Loai": "Phí điều chế",
+        "Thetich": "",
+        "Gia": "197,166 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "1"
+    },
+    {
+        "ID": "56181183",
+        "Ma": "HT01",
+        "Ten": "Huyết tương tươi đông lạnh 150 ml",
+        "Tenviettat": "Huyết tương tươi đông lạnh 150 ml",
+        "Loai": "Máu",
+        "Thetich": "150 ml",
+        "Gia": "181,000 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "2"
+    },
+    {
+        "ID": "56181186",
+        "Ma": "KTC02",
+        "Ten": "Túi Tiểu Cầu [120ml]",
+        "Tenviettat": "Túi Tiểu Cầu [120ml]",
+        "Loai": "Máu",
+        "Thetich": "120 ml",
+        "Gia": "1,347,500 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "3"
+    },
+    {
+        "ID": "56181189",
+        "Ma": "KTC2",
+        "Ten": "Chi phí điều chế Khối tiểu cầu gạn tách [120ml]",
+        "Tenviettat": "Chi phí điều chế Khối tiểu cầu gạn tách [120ml]",
+        "Loai": "Phí điều chế",
+        "Thetich": "",
+        "Gia": "643,500 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "4"
+    },
+    {
+        "ID": "56181187",
+        "Ma": "KTC03",
+        "Ten": "Túi Tiểu Cầu [250ml]",
+        "Tenviettat": "Túi Tiểu Cầu [250ml]",
+        "Loai": "Máu",
+        "Thetich": "250 ml",
+        "Gia": "2,695,000 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "5"
+    },
+    {
+        "ID": "56181190",
+        "Ma": "KTC3",
+        "Ten": "Chi phí điều chế Khối tiểu cầu gạn tách [250ml]",
+        "Tenviettat": "Chi phí điều chế Khối tiểu cầu gạn tách [250ml]",
+        "Loai": "Phí điều chế",
+        "Thetich": "",
+        "Gia": "1,183,000 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "6"
+    },
+    {
+        "ID": "56184330",
+        "Ma": "KTC04",
+        "Ten": "Túi Tiểu Cầu 8 DV",
+        "Tenviettat": "Túi Tiểu Cầu 8 DV",
+        "Loai": "Máu",
+        "Thetich": "250 ml",
+        "Gia": "1,074,000 ₫",
+        "Ngaytao": "11/11/2022",
+        "Uutien": "7"
+    },
+    {
+        "ID": "56184331",
+        "Ma": "KTC4",
+        "Ten": "Chi phí điều chế Khối tiểu cầu gạn tách 8 DV",
+        "Tenviettat": "Chi phí điều chế Khối tiểu cầu gạn tách 8 DV",
+        "Loai": "Phí điều chế",
+        "Thetich": "",
+        "Gia": "798,000 ₫",
+        "Ngaytao": "11/11/2022",
+        "Uutien": "8"
+    },
+    {
+        "ID": "56188656",
+        "Ma": "KTC05",
+        "Ten": "Túi Tiểu Cầu 6 DV",
+        "Tenviettat": "Túi Tiểu Cầu 6 DV",
+        "Loai": "Máu",
+        "Thetich": "250 ml",
+        "Gia": "2,695,000 ₫",
+        "Ngaytao": "15/06/2024",
+        "Uutien": "9"
+    },
+    {
+        "ID": "56188655",
+        "Ma": "KTC5",
+        "Ten": "Chi phí điều chế Khối tiểu cầu gạn tách 6 DV",
+        "Tenviettat": "Chi phí điều chế Khối tiểu cầu gạn tách 6 DV",
+        "Loai": "Phí điều chế",
+        "Thetich": "",
+        "Gia": "1,199,000 ₫",
+        "Ngaytao": "15/06/2024",
+        "Uutien": "10"
+    },
+    {
+        "ID": "56181138",
+        "Ma": "VCM",
+        "Ten": "Chi phí vận chuyển máu",
+        "Tenviettat": "Chi phí vận chuyển máu",
+        "Loai": "Phí vận chuyển",
+        "Thetich": "",
+        "Gia": "17,000 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "11"
+    },
+    {
+        "ID": "56181182",
+        "Ma": "HT00",
+        "Ten": "Huyết tương tươi đông lạnh 100 ml",
+        "Tenviettat": "Huyết tương tươi đông lạnh 100 ml",
+        "Loai": "Máu",
+        "Thetich": "100 ml",
+        "Gia": "157,000 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "12"
+    },
+    {
+        "ID": "56181184",
+        "Ma": "HT20",
+        "Ten": "Huyết tương tươi đông lạnh 200 ml",
+        "Tenviettat": "Huyết tương tươi đông lạnh 200 ml",
+        "Loai": "Máu",
+        "Thetich": "200 ml",
+        "Gia": "285,000 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "13"
+    },
+    {
+        "ID": "56181137",
+        "Ma": "HCL0",
+        "Ten": "Khối hồng cầu từ 100 ml máu toàn phần",
+        "Tenviettat": "Khối hồng cầu từ 100 ml máu toàn phần",
+        "Loai": "Máu",
+        "Thetich": "50 ml",
+        "Gia": "282,000 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "14"
+    },
+    {
+        "ID": "56181195",
+        "Ma": "HCL60",
+        "Ten": "Khối hồng cầu từ 200 ml máu toàn phần",
+        "Tenviettat": "Khối hồng cầu từ 200 ml máu toàn phần",
+        "Loai": "Máu",
+        "Thetich": "100 ml",
+        "Gia": "525,000 ₫",
+        "Ngaytao": "23/05/2022",
+        "Uutien": "15"
+    },
+    {
+        "ID": "56181180",
+        "Ma": "HCL40",
+        "Ten": "Khối hồng cầu từ 250 ml máu toàn phần",
+        "Tenviettat": "Khối hồng cầu từ 250 ml máu toàn phần",
+        "Loai": "Máu",
+        "Thetich": "125 ml",
+        "Gia": "871,000 ₫",
+        "Ngaytao": "23/05/2022",
+        "Uutien": "16"
+    },
+    {
+        "ID": "56181194",
+        "Ma": "HCL50",
+        "Ten": "Khối hồng cầu từ 350 ml máu toàn phần",
+        "Tenviettat": "Khối hồng cầu từ 350 ml máu toàn phần",
+        "Loai": "Máu",
+        "Thetich": "175 ml",
+        "Gia": "984,000 ₫",
+        "Ngaytao": "23/05/2022",
+        "Uutien": "17"
+    },
+    {
+        "ID": "56181181",
+        "Ma": "HCL80",
+        "Ten": "Khối hồng cầu từ 450 ml máu toàn phần",
+        "Tenviettat": "Khối hồng cầu từ 450 ml máu toàn phần",
+        "Loai": "Máu",
+        "Thetich": "225 ml",
+        "Gia": "1,077,000 ₫",
+        "Ngaytao": "23/05/2022",
+        "Uutien": "18"
+    },
+    {
+        "ID": "56181196",
+        "Ma": "MAU30",
+        "Ten": "Máu toàn phần 350 ml",
+        "Tenviettat": "Máu toàn phần 350 ml",
+        "Loai": "Máu",
+        "Thetich": "350 ml",
+        "Gia": "985,000 ₫",
+        "Ngaytao": "23/05/2022",
+        "Uutien": "19"
+    },
+    {
+        "ID": "56181191",
+        "Ma": "KTL0",
+        "Ten": "Kết tủa lạnh thể tích 50 ml",
+        "Tenviettat": "Kết tủa lạnh thể tích 50 ml",
+        "Loai": "Máu",
+        "Thetich": "50 ml",
+        "Gia": "362,000 ₫",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "20"
+    }
+]

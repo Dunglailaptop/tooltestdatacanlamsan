@@ -12,7 +12,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using ToolTestData.Models;
 using ToolTestData.Presenters;
+using ToolTestData.View.NhapLieu.BacSi;
+using ToolTestData.View.NhapLieu.KhuVuc;
 using ToolTestData.View.NhapLieu.LuotSuIn;
+using ToolTestData.View.NhapLieu.Phong;
+using ToolTestData.View.CrawData;
 
 namespace ToolTestData.View.Menu
 {
@@ -22,7 +26,7 @@ namespace ToolTestData.View.Menu
         {
             InitializeComponent();
         }
-        void openchild(Type childType)
+        void openchild(Type childType, int typecheck)
         {
             // Check if the childType is a Form
             if (!typeof(Form).IsAssignableFrom(childType))
@@ -39,19 +43,48 @@ namespace ToolTestData.View.Menu
                     return;
                 }
             }
-         
+
             // Create an instance of the form and show it
             Form form = (Form)Activator.CreateInstance(childType);
-            if (form is LuotSuInForm luotSuInForm)
+            switch (typecheck)
             {
-                // Initialize the context and presenter if the form is LuotSuInForm
-                ClsContext context = new ClsContext();
-                new LuotSuInPresenter(luotSuInForm, context);
+                case 0:
+                    if (form is LuotSuInForm luotSuInForm)
+                    {
+                        // Initialize the context and presenter if the form is LuotSuInForm
+                        ClsContext context = new ClsContext();
+                        new LuotSuInPresenter(luotSuInForm, context);
+                    }
+                    break;
+                case 1:
+                    if (form is BacSiForm bacSiForm)
+                    {
+                        // Initialize the context and presenter if the form is LuotSuInForm
+                        ClsContext context = new ClsContext();
+                        new BacSiPresenter(bacSiForm, context);
+                    }
+                    break;
+                case 2:
+                    if (form is KhuVucForm khuVucForm)
+                    {
+                        // Initialize the context and presenter if the form is LuotSuInForm
+                        ClsContext context = new ClsContext();
+                        new KhuVucPresenter(khuVucForm, context);
+                    }
+                    break;
+                case 3:
+                    if (form is PhongForm PhongForms)
+                    {
+                        // Initialize the context and presenter if the form is LuotSuInForm
+                        ClsContext context = new ClsContext();
+                        new PhongPresenter(PhongForms, context);
+                    }
+                    break;
             }
 
             form.MdiParent = this;
             form.Show();
-       
+
         }
 
 
@@ -68,7 +101,27 @@ namespace ToolTestData.View.Menu
 
         private void barButtonItem1_ItemClick(object sender, ItemClickEventArgs e)
         {
-            openchild(typeof(LuotSuInForm));
+            openchild(typeof(LuotSuInForm), 0);
+        }
+
+        private void barButtonItem5_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(BacSiForm), 1);
+        }
+
+        private void barButtonItem17_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(KhuVucForm), 2);
+        }
+
+        private void barButtonItem3_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(PhongForm), 3);
+        }
+
+        private void barButtonItem15_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(CrawDataForm), 9);
         }
     }
 }

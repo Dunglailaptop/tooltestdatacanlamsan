@@ -1,0 +1,37 @@
+[
+    {
+        "ID": "121",
+        "Ma": "HCL",
+        "Ten": "Hồng cầu lắng",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "0"
+    },
+    {
+        "ID": "124",
+        "Ma": "HTDL",
+        "Ten": "Huyết tương đông lạnh",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "0"
+    },
+    {
+        "ID": "123",
+        "Ma": "KTL",
+        "Ten": "Kết tủa lạnh",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "0"
+    },
+    {
+        "ID": "122",
+        "Ma": "MTP",
+        "Ten": "Máu toàn phần",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "0"
+    },
+    {
+        "ID": "125",
+        "Ma": "TC",
+        "Ten": "Tiểu cầu",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "0"
+    }
+]

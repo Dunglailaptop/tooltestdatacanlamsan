@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wTvSAHCGrJLTU8PMAq+A2cgCAepsqP8DKqIjLY1KNZgeqSSTcH41Vp0Pto4XhQ507zTZLrfG4/YLQyvg3Ucotw==",
+  "dgSpecHash": "rQr6ptN4vQYgp+bhjXdxmZ1agaLfMj31rLlTOY2Y9KXq1XY1BERFBz818r38ws9OZRT2SDy+SRqvwPDKXgobwA==",
   "success": true,
   "projectFilePath": "C:\\Users\\ndung\\OneDrive\\Documents\\AppPython\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj",
   "expectedPackageFiles": [
@@ -77,6 +77,7 @@
     "C:\\Users\\ndung\\.nuget\\packages\\microsoft.win32.systemevents\\4.6.0\\microsoft.win32.systemevents.4.6.0.nupkg.sha512",
     "C:\\Users\\ndung\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\ndung\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\ndung\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\ndung\\.nuget\\packages\\npgsql\\8.0.3\\npgsql.8.0.3.nupkg.sha512",
     "C:\\Users\\ndung\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.4\\npgsql.entityframeworkcore.postgresql.8.0.4.nupkg.sha512",
     "C:\\Users\\ndung\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.5.0\\runtime.native.system.data.sqlclient.sni.4.5.0.nupkg.sha512",
