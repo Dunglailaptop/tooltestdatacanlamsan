@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ndung\\OneDrive\\Documents\\AppPython\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ndung\\OneDrive\\Documents\\AppPython\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ndung\\OneDrive\\Documents\\AppPython\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj",
         "projectName": "ToolTestData",
-        "projectPath": "C:\\Users\\ndung\\OneDrive\\Documents\\AppPython\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj",
-        "packagesPath": "C:\\Users\\ndung\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ndung\\OneDrive\\Documents\\AppPython\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\obj\\",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ndung\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -101,7 +101,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
