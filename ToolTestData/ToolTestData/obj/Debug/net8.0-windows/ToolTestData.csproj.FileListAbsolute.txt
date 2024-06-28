@@ -631,3 +631,8 @@ C:\Users\Admin\Source\Repos\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\
 C:\Users\Admin\Source\Repos\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.pdb
 C:\Users\Admin\Source\Repos\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.genruntimeconfig.cache
 C:\Users\Admin\Source\Repos\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ref\ToolTestData.dll
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.CrawData.CrawDataForm.resources
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.BacSi.BacSiForm.resources
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.KhuVuc.KhuVucForm.resources
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.Phong.PhongForm.resources
