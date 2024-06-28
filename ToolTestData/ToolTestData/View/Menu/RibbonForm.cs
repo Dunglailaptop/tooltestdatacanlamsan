@@ -123,5 +123,25 @@ namespace ToolTestData.View.Menu
         {
             openchild(typeof(CrawDataForm), 9);
         }
+
+        private void barButtonItem12_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem20_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem24_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
+
+        private void barButtonItem22_ItemClick(object sender, ItemClickEventArgs e)
+        {
+
+        }
     }
 }
