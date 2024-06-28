@@ -450,3 +450,8 @@ C:\Users\ndung\OneDrive\Documents\AppPython\tooltestdatacanlamsan\ToolTestData\T
 C:\Users\ndung\OneDrive\Documents\AppPython\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.Phong.PhongForm.resources
 C:\Users\ndung\OneDrive\Documents\AppPython\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.CrawData.CrawDataForm.resources
 C:\Users\ndung\OneDrive\Documents\AppPython\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\Newtonsoft.Json.dll
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.CrawData.CrawDataForm.resources
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.BacSi.BacSiForm.resources
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.KhuVuc.KhuVucForm.resources
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.Phong.PhongForm.resources
