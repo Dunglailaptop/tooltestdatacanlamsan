@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ToolTestData"
   ],
-  "SelectedNode": "\\ToolTestData.sln",
+  "SelectedNode": "\\ToolTestData\\ToolTestData.sln",
   "PreviewInSolutionExplorer": false
 }
