@@ -631,3 +631,4 @@ C:\Users\Admin\Source\Repos\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\
 C:\Users\Admin\Source\Repos\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.pdb
 C:\Users\Admin\Source\Repos\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.genruntimeconfig.cache
 C:\Users\Admin\Source\Repos\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ref\ToolTestData.dll
+C:\Users\Admin\source\repos\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.BaoCao.BaoCao.resources

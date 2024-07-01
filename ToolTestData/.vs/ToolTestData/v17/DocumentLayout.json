@@ -1,7 +1,76 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\baocao\\baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\baocao\\baocao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\nhaplieu\\bacsi\\bacsiform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\nhaplieu\\bacsi\\bacsiform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\nhaplieu\\bacsi\\bacsiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\nhaplieu\\bacsi\\bacsiform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\presenters\\bacsipresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\presenters\\bacsipresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\presenters\\khuvucpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\presenters\\khuvucpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\baocao\\baocao.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\baocao\\baocao.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\menu\\ribbonform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\menu\\ribbonform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\tooltestdata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\tooltestdata.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\nhaplieu\\bacsi\\bacsiform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\nhaplieu\\bacsi\\bacsiform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\baocao\\baocao.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\baocao\\baocao.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\presenters\\phongpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\presenters\\phongpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\presenters\\luotsuinpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\presenters\\luotsuinpresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\nhaplieu\\luotsuin\\luotsuinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\nhaplieu\\luotsuin\\luotsuinform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\models\\clscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\models\\clscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\nhaplieu\\luotsuin\\luotsuinview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\nhaplieu\\luotsuin\\luotsuinview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|c:\\users\\admin\\source\\repos\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +87,213 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BacSiForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.cs [Design]",
+              "RelativeToolTip": "ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:27:55.676Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "KhuVucPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\KhuVucPresenter.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\Presenters\\KhuVucPresenter.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\KhuVucPresenter.cs",
+              "RelativeToolTip": "ToolTestData\\Presenters\\KhuVucPresenter.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T06:27:36.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaoCao.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\BaoCao\\BaoCao.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\BaoCao\\BaoCao.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\BaoCao\\BaoCao.cs [Design]",
+              "RelativeToolTip": "ToolTestData\\View\\BaoCao\\BaoCao.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T04:02:51.614Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BacSiForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.Designer.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.Designer.cs",
+              "RelativeToolTip": "ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T04:00:52.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BacSiForm.resx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.resx",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.resx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.resx",
+              "RelativeToolTip": "ToolTestData\\View\\NhapLieu\\BacSi\\BacSiForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-01T04:00:52.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BaoCao.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\BaoCao\\BaoCao.Designer.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\BaoCao\\BaoCao.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\BaoCao\\BaoCao.Designer.cs",
+              "RelativeToolTip": "ToolTestData\\View\\BaoCao\\BaoCao.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T04:00:47.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaoCao.resx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\BaoCao\\BaoCao.resx",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\BaoCao\\BaoCao.resx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\BaoCao\\BaoCao.resx",
+              "RelativeToolTip": "ToolTestData\\View\\BaoCao\\BaoCao.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-01T04:00:47.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BacSiPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\BacSiPresenter.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\Presenters\\BacSiPresenter.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\BacSiPresenter.cs",
+              "RelativeToolTip": "ToolTestData\\Presenters\\BacSiPresenter.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAcwBIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:27:51.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RibbonForm.resx",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.resx",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\Menu\\RibbonForm.resx",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.resx",
+              "RelativeToolTip": "ToolTestData\\View\\Menu\\RibbonForm.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-07-01T04:00:52.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RibbonForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.Designer.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\Menu\\RibbonForm.Designer.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.Designer.cs",
+              "RelativeToolTip": "ToolTestData\\View\\Menu\\RibbonForm.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:44:43.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ToolTestData.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj",
+              "RelativeDocumentMoniker": "ToolTestData\\ToolTestData.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj",
+              "RelativeToolTip": "ToolTestData\\ToolTestData.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-07-01T04:00:53.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LuotSuInForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs [Design]",
+              "RelativeToolTip": "ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:50:44.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LuotSuInPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\LuotSuInPresenter.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\Presenters\\LuotSuInPresenter.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\LuotSuInPresenter.cs",
+              "RelativeToolTip": "ToolTestData\\Presenters\\LuotSuInPresenter.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:50:20.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PhongPresenter.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\PhongPresenter.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\Presenters\\PhongPresenter.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\PhongPresenter.cs",
+              "RelativeToolTip": "ToolTestData\\Presenters\\PhongPresenter.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAcwBcAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:49:39.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ClsContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsContext.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\Models\\ClsContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsContext.cs",
+              "RelativeToolTip": "ToolTestData\\Models\\ClsContext.cs",
+              "ViewState": "AQIAABsBAAAAAAAAAAA3wFMBAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:27:45.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RibbonForm.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\Menu\\RibbonForm.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs",
+              "RelativeToolTip": "ToolTestData\\View\\Menu\\RibbonForm.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAswFUAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:22:58.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LuotSuInView.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInView.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInView.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInView.cs",
+              "RelativeToolTip": "ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInView.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-28T02:20:38.585Z"
             }
           ]
         }
