@@ -3,12 +3,19 @@
   "WorkspaceRootPath": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\crawdata\\crawdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\nhaplieu\\khuvuc\\khuvucview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\nhaplieu\\khuvuc\\khuvucview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\crawdata\\crawdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\crawdata\\crawdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +25,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +37,31 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAI0VAAAAAAAAAAAAwJAVAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-07-01T08:48:07.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "KhuVucView.cs",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\KhuVuc\\KhuVucView.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\KhuVuc\\KhuVucView.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\KhuVuc\\KhuVucView.cs",
+              "RelativeToolTip": "ToolTestData\\View\\NhapLieu\\KhuVuc\\KhuVucView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-01T08:46:22.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CrawDataForm.cs [Design]",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataForm.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\CrawDataForm.cs",
@@ -42,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "RibbonForm.cs [Design]",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\Menu\\RibbonForm.cs",

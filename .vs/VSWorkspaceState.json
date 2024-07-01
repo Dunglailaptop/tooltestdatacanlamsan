@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ToolTestData"
+    "\\ToolTestData",
+    "\\ToolTestData\\ToolTestData",
+    "\\ToolTestData\\ToolTestData\\Models",
+    "\\ToolTestData\\ToolTestData\\View",
+    "\\ToolTestData\\ToolTestData\\View\\Menu",
+    "\\ToolTestData\\ToolTestData\\View\\NhapLieu",
+    "\\ToolTestData\\ToolTestData\\View\\NhapLieu\\BacSi"
   ],
   "SelectedNode": "\\ToolTestData\\ToolTestData.sln",
   "PreviewInSolutionExplorer": false
