@@ -57,8 +57,18 @@
             barButtonItem14 = new DevExpress.XtraBars.BarButtonItem();
             barButtonItem3 = new DevExpress.XtraBars.BarButtonItem();
             barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
+            barButtonItem34 = new DevExpress.XtraBars.BarButtonItem();
             ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             ribbonPageGroup2 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
+            ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
+            ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             popupMenu1 = new DevExpress.XtraBars.PopupMenu(components);
             documentManager1 = new DevExpress.XtraBars.Docking2010.DocumentManager(components);
             noDocumentsView1 = new DevExpress.XtraBars.Docking2010.Views.NoDocuments.NoDocumentsView(components);
@@ -67,16 +77,6 @@
             barButtonItem18 = new DevExpress.XtraBars.BarButtonItem();
             barButtonItem19 = new DevExpress.XtraBars.BarButtonItem();
             barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
-            barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
-            barButtonItem17 = new DevExpress.XtraBars.BarButtonItem();
-            barButtonItem28 = new DevExpress.XtraBars.BarButtonItem();
-            ribbonPage3 = new DevExpress.XtraBars.Ribbon.RibbonPage();
-            ribbonPageGroup3 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
-            barButtonItem29 = new DevExpress.XtraBars.BarButtonItem();
-            barButtonItem30 = new DevExpress.XtraBars.BarButtonItem();
-            barButtonItem32 = new DevExpress.XtraBars.BarButtonItem();
-            barButtonItem33 = new DevExpress.XtraBars.BarButtonItem();
-            barButtonItem34 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)ribbon).BeginInit();
             ((System.ComponentModel.ISupportInitialize)popupMenu1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)documentManager1).BeginInit();
@@ -287,6 +287,67 @@
             barButtonItem4.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem4.ImageOptions.LargeImage");
             barButtonItem4.Name = "barButtonItem4";
             // 
+            // barButtonItem5
+            // 
+            barButtonItem5.Caption = "Báo cáo tổng hợp ĐK và sử dụng máu";
+            barButtonItem5.Id = 39;
+            barButtonItem5.ImageOptions.Image = (Image)resources.GetObject("barButtonItem5.ImageOptions.Image");
+            barButtonItem5.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem5.ImageOptions.LargeImage");
+            barButtonItem5.Name = "barButtonItem5";
+            // 
+            // barButtonItem17
+            // 
+            barButtonItem17.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
+            barButtonItem17.Caption = "Báo cáo hủy đăng ký";
+            barButtonItem17.Id = 40;
+            barButtonItem17.ImageOptions.Image = (Image)resources.GetObject("barButtonItem17.ImageOptions.Image");
+            barButtonItem17.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem17.ImageOptions.LargeImage");
+            barButtonItem17.Name = "barButtonItem17";
+            // 
+            // barButtonItem28
+            // 
+            barButtonItem28.Caption = "Phiếu hoàn kho";
+            barButtonItem28.Id = 41;
+            barButtonItem28.ImageOptions.Image = (Image)resources.GetObject("barButtonItem28.ImageOptions.Image");
+            barButtonItem28.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem28.ImageOptions.LargeImage");
+            barButtonItem28.Name = "barButtonItem28";
+            // 
+            // barButtonItem29
+            // 
+            barButtonItem29.Caption = "Log máu";
+            barButtonItem29.Id = 42;
+            barButtonItem29.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem29.ImageOptions.SvgImage");
+            barButtonItem29.Name = "barButtonItem29";
+            // 
+            // barButtonItem30
+            // 
+            barButtonItem30.Caption = "Log ĐK máu";
+            barButtonItem30.Id = 43;
+            barButtonItem30.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem30.ImageOptions.SvgImage");
+            barButtonItem30.Name = "barButtonItem30";
+            // 
+            // barButtonItem32
+            // 
+            barButtonItem32.Caption = "Log túi máu";
+            barButtonItem32.Id = 44;
+            barButtonItem32.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem32.ImageOptions.SvgImage");
+            barButtonItem32.Name = "barButtonItem32";
+            // 
+            // barButtonItem33
+            // 
+            barButtonItem33.Caption = "Log thủ thuật";
+            barButtonItem33.Id = 45;
+            barButtonItem33.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem33.ImageOptions.SvgImage");
+            barButtonItem33.Name = "barButtonItem33";
+            // 
+            // barButtonItem34
+            // 
+            barButtonItem34.Caption = "Sổ kho";
+            barButtonItem34.Id = 46;
+            barButtonItem34.ImageOptions.Image = (Image)resources.GetObject("barButtonItem34.ImageOptions.Image");
+            barButtonItem34.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem34.ImageOptions.LargeImage");
+            barButtonItem34.Name = "barButtonItem34";
+            // 
             // ribbonPage2
             // 
             ribbonPage2.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] { ribbonPageGroup2 });
@@ -302,6 +363,20 @@
             ribbonPageGroup2.ItemLinks.Add(barButtonItem28);
             ribbonPageGroup2.ItemLinks.Add(barButtonItem34);
             ribbonPageGroup2.Name = "ribbonPageGroup2";
+            // 
+            // ribbonPage3
+            // 
+            ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] { ribbonPageGroup3 });
+            ribbonPage3.Name = "ribbonPage3";
+            ribbonPage3.Text = "LOG";
+            // 
+            // ribbonPageGroup3
+            // 
+            ribbonPageGroup3.ItemLinks.Add(barButtonItem29);
+            ribbonPageGroup3.ItemLinks.Add(barButtonItem30);
+            ribbonPageGroup3.ItemLinks.Add(barButtonItem32);
+            ribbonPageGroup3.ItemLinks.Add(barButtonItem33);
+            ribbonPageGroup3.Name = "ribbonPageGroup3";
             // 
             // popupMenu1
             // 
@@ -343,81 +418,6 @@
             barButtonItem9.Id = 9;
             barButtonItem9.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem9.ImageOptions.SvgImage");
             barButtonItem9.Name = "barButtonItem9";
-            // 
-            // barButtonItem5
-            // 
-            barButtonItem5.Caption = "Báo cáo tổng hợp ĐK và sử dụng máu";
-            barButtonItem5.Id = 39;
-            barButtonItem5.ImageOptions.Image = (Image)resources.GetObject("barButtonItem5.ImageOptions.Image");
-            barButtonItem5.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem5.ImageOptions.LargeImage");
-            barButtonItem5.Name = "barButtonItem5";
-            // 
-            // barButtonItem17
-            // 
-            barButtonItem17.ButtonStyle = DevExpress.XtraBars.BarButtonStyle.DropDown;
-            barButtonItem17.Caption = "Báo cáo hủy đăng ký";
-            barButtonItem17.Id = 40;
-            barButtonItem17.ImageOptions.Image = (Image)resources.GetObject("barButtonItem17.ImageOptions.Image");
-            barButtonItem17.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem17.ImageOptions.LargeImage");
-            barButtonItem17.Name = "barButtonItem17";
-            // 
-            // barButtonItem28
-            // 
-            barButtonItem28.Caption = "Phiếu hoàn kho";
-            barButtonItem28.Id = 41;
-            barButtonItem28.ImageOptions.Image = (Image)resources.GetObject("barButtonItem28.ImageOptions.Image");
-            barButtonItem28.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem28.ImageOptions.LargeImage");
-            barButtonItem28.Name = "barButtonItem28";
-            // 
-            // ribbonPage3
-            // 
-            ribbonPage3.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] { ribbonPageGroup3 });
-            ribbonPage3.Name = "ribbonPage3";
-            ribbonPage3.Text = "LOG";
-            // 
-            // ribbonPageGroup3
-            // 
-            ribbonPageGroup3.ItemLinks.Add(barButtonItem29);
-            ribbonPageGroup3.ItemLinks.Add(barButtonItem30);
-            ribbonPageGroup3.ItemLinks.Add(barButtonItem32);
-            ribbonPageGroup3.ItemLinks.Add(barButtonItem33);
-            ribbonPageGroup3.Name = "ribbonPageGroup3";
-            // 
-            // barButtonItem29
-            // 
-            barButtonItem29.Caption = "Log máu";
-            barButtonItem29.Id = 42;
-            barButtonItem29.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem29.ImageOptions.SvgImage");
-            barButtonItem29.Name = "barButtonItem29";
-            // 
-            // barButtonItem30
-            // 
-            barButtonItem30.Caption = "Log ĐK máu";
-            barButtonItem30.Id = 43;
-            barButtonItem30.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem30.ImageOptions.SvgImage");
-            barButtonItem30.Name = "barButtonItem30";
-            // 
-            // barButtonItem32
-            // 
-            barButtonItem32.Caption = "Log túi máu";
-            barButtonItem32.Id = 44;
-            barButtonItem32.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem32.ImageOptions.SvgImage");
-            barButtonItem32.Name = "barButtonItem32";
-            // 
-            // barButtonItem33
-            // 
-            barButtonItem33.Caption = "Log thủ thuật";
-            barButtonItem33.Id = 45;
-            barButtonItem33.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem33.ImageOptions.SvgImage");
-            barButtonItem33.Name = "barButtonItem33";
-            // 
-            // barButtonItem34
-            // 
-            barButtonItem34.Caption = "Sổ kho";
-            barButtonItem34.Id = 46;
-            barButtonItem34.ImageOptions.Image = (Image)resources.GetObject("barButtonItem34.ImageOptions.Image");
-            barButtonItem34.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem34.ImageOptions.LargeImage");
-            barButtonItem34.Name = "barButtonItem34";
             // 
             // BaoCao
             // 
