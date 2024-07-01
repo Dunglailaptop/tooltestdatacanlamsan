@@ -14,6 +14,8 @@ public partial class ClsContext : DbContext
         : base(options)
     {
     }
+     
+    public virtual DbSet<ClsNhmLogDangKi> ClsNhmLogDangKis { get; set; }
 
     public virtual DbSet<BangCap> BangCaps { get; set; }
 
@@ -3434,6 +3436,11 @@ public partial class ClsContext : DbContext
                 .HasColumnType("timestamp(3) without time zone");
             entity.Property(e => e.TrangThai).HasDefaultValue(true);
             entity.Property(e => e.XuLy).HasMaxLength(255);
+        });
+
+        modelBuilder.Entity<ClsNhmLogDangKi>(entity =>
+        {
+            entity.HasKey(e => e.MaSoLogDangKi);
         });
 
         OnModelCreatingPartial(modelBuilder);
