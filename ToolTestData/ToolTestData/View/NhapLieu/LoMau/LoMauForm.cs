@@ -11,11 +11,26 @@ using System.Windows.Forms;
 
 namespace ToolTestData.View.NhapLieu.LoMau
 {
-    public partial class LoMauForm : DevExpress.XtraEditors.XtraForm
+    public partial class LoMauForm : DevExpress.XtraEditors.XtraForm, LoMauView
     {
         public LoMauForm()
         {
             InitializeComponent();
+        }
+
+        public void SetBindingDataSourceLoMau(BindingSource LoMauSource)
+        {
+           LoMauSource.DataSource = LoMauSource;
+        }
+
+        public void show()
+        {
+            throw new NotImplementedException();
+        }
+
+        private void LoMauForm_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

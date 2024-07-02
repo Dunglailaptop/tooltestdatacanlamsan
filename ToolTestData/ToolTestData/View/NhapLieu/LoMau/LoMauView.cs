@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace ToolTestData.View.NhapLieu.LoMau
 {
-    internal interface LoMauView
+    public interface LoMauView
     {
+        void SetBindingDataSourceLoMau(BindingSource LoMauSource);
+
+        void show();
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ToolTestData.Presenters
 {
-    internal class LoMauPresenter
+    public class LoMauPresenter
     {
     }
 }
