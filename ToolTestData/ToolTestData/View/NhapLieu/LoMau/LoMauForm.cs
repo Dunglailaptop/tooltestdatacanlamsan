@@ -20,7 +20,16 @@ namespace ToolTestData.View.NhapLieu.LoMau
 
         public void SetBindingDataSourceLoMau(BindingSource LoMauSource)
         {
-           LoMauSource.DataSource = LoMauSource;
+           
+                gridControl1.DataSource = LoMauSource;
+          
+        }
+
+        public void SetBindingDataSourceTuiMau(BindingSource TuiMauSource)
+        {
+           
+                gridControl2.DataSource = TuiMauSource;
+            
         }
 
         public void show()

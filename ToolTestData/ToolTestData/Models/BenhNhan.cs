@@ -9,6 +9,8 @@ public partial class BenhNhan
 
     public string MaBenhNhan { get; set; } = null!;
 
+    public string MaPhatSinh { get; set; } = null!;
+
     public string TenBenhNhan { get; set; } = null!;
 
     public int GioiTinh { get; set; }
@@ -38,6 +40,4 @@ public partial class BenhNhan
     public DateTime NgayTao { get; set; }
 
     public DateTime NgayCapNhat { get; set; }
-
-    public string MaPhatSinh { get; set; } = null!;
 }

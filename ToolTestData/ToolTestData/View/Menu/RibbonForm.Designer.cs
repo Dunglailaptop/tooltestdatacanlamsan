@@ -88,17 +88,14 @@
             // ribbon
             // 
             ribbon.BackColor = Color.FromArgb(207, 221, 238);
-            ribbon.EmptyAreaImageOptions.ImagePadding = new Padding(35, 37, 35, 37);
             ribbon.ExpandCollapseItem.Id = 0;
             ribbon.Items.AddRange(new DevExpress.XtraBars.BarItem[] { ribbon.ExpandCollapseItem, ribbon.SearchEditItem, barButtonItem1, barButtonItem2, barButtonItem3, barButtonItem4, barButtonItem5, barButtonItem6, barButtonItem7, barButtonItem8, barButtonItem10, barButtonItem11, barButtonItem12, barButtonItem13, barButtonItem14, barButtonItem15, barButtonItem16, barButtonItem17, barButtonItem20, barButtonItem21, barButtonItem22, barButtonItem23, barButtonItem24, barButtonItem25, barButtonItem26, barButtonItem27, barButtonItem28, barButtonItem29, barButtonItem30, barButtonItem32 });
             ribbon.Location = new Point(0, 0);
-            ribbon.Margin = new Padding(4);
             ribbon.MaxItemId = 35;
             ribbon.Name = "ribbon";
-            ribbon.OptionsMenuMinWidth = 385;
             ribbon.PageHeaderItemLinks.Add(barButtonItem14);
             ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] { ribbonPage1, ribbonPage3, ribbonPage2, ribbonPage5, ribbonPage4 });
-            ribbon.Size = new Size(1204, 178);
+            ribbon.Size = new Size(1032, 144);
             ribbon.StatusBar = ribbonStatusBar;
             ribbon.Click += ribbon_Click;
             // 
@@ -152,6 +149,7 @@
             barButtonItem6.ImageOptions.Image = (Image)resources.GetObject("barButtonItem6.ImageOptions.Image");
             barButtonItem6.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem6.ImageOptions.LargeImage");
             barButtonItem6.Name = "barButtonItem6";
+            barButtonItem6.ItemClick += barButtonItem6_ItemClick;
             // 
             // barButtonItem7
             // 
@@ -418,11 +416,10 @@
             // ribbonStatusBar
             // 
             ribbonStatusBar.ItemLinks.Add(barButtonItem15);
-            ribbonStatusBar.Location = new Point(0, 625);
-            ribbonStatusBar.Margin = new Padding(4);
+            ribbonStatusBar.Location = new Point(0, 505);
             ribbonStatusBar.Name = "ribbonStatusBar";
             ribbonStatusBar.Ribbon = ribbon;
-            ribbonStatusBar.Size = new Size(1204, 38);
+            ribbonStatusBar.Size = new Size(1032, 34);
             // 
             // popupMenu1
             // 
@@ -479,13 +476,12 @@
             Appearance.ForeColor = Color.FromArgb(0, 0, 192);
             Appearance.Options.UseBackColor = true;
             Appearance.Options.UseForeColor = true;
-            AutoScaleDimensions = new SizeF(7F, 16F);
+            AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1204, 663);
+            ClientSize = new Size(1032, 539);
             Controls.Add(ribbonStatusBar);
             Controls.Add(ribbon);
             IsMdiContainer = true;
-            Margin = new Padding(4);
             Name = "RibbonForm";
             Ribbon = ribbon;
             StartPosition = FormStartPosition.CenterScreen;

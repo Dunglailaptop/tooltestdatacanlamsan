@@ -2321,6 +2321,79 @@ namespace ToolTestData.Migrations
                     b.ToTable("CLS_LoaiPhieuChiDinh", (string)null);
                 });
 
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmBienBanHuy", b =>
+                {
+                    b.Property<int>("MaSoBienBanHuy")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoBienBanHuy"));
+
+                    b.Property<string>("ChuThich")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<DateTime>("GioDuyet")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<DateTime>("GioTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<DateTime>("GioXacNhan")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<string>("HinhAnhBienBan")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("LyDo")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("MaBienBanHuy")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int>("MaSoTuiMau")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("NguoiDuyet")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("NguoiTao")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("TrangThai")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("TrangThaiBbh")
+                        .HasColumnType("integer")
+                        .HasColumnName("TrangThaiBBH");
+
+                    b.HasKey("MaSoBienBanHuy")
+                        .HasName("CLS_NHM_BienBanHuy_pkey");
+
+                    b.ToTable("CLS_NHM_BienBanHuy", (string)null);
+                });
+
             modelBuilder.Entity("ToolTestData.Models.ClsNhmChiTietLoMau", b =>
                 {
                     b.Property<int>("MaSoChiTietLoMau")
@@ -2365,6 +2438,45 @@ namespace ToolTestData.Migrations
                         .HasName("CLS_NHM_ChiTietLoMau_pkey");
 
                     b.ToTable("CLS_NHM_ChiTietLoMau", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmChiTietPhieuDangKyMau", b =>
+                {
+                    b.Property<int>("MaSoChiTietPhieuDangKyMau")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoChiTietPhieuDangKyMau"));
+
+                    b.Property<int>("MaSoPhieuChiDinh")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("MaSoPhieuDangKyMau")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayDuTru")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("NguoiNhap")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("TrangThai")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.HasKey("MaSoChiTietPhieuDangKyMau")
+                        .HasName("CLS_NHM_ChiTietPhieuDangKyMau_pkey");
+
+                    b.ToTable("CLS_NHM_ChiTietPhieuDangKyMau", (string)null);
                 });
 
             modelBuilder.Entity("ToolTestData.Models.ClsNhmDanhMucMau", b =>
@@ -2503,6 +2615,9 @@ namespace ToolTestData.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
 
+                    b.Property<int>("Testdata")
+                        .HasColumnType("integer");
+
                     b.Property<bool>("TranhThaiHieuLuc")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("boolean")
@@ -2594,6 +2709,196 @@ namespace ToolTestData.Migrations
                         .HasName("CLS_NHM_LoaiChePham_pkey");
 
                     b.ToTable("CLS_NHM_LoaiChePham", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmLogDangKi", b =>
+                {
+                    b.Property<int>("MaSoLogDangKi")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoLogDangKi"));
+
+                    b.Property<string>("GhiChu")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("HanhDong")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("MaLogDangKi")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int>("MaSoPhieuYeuCauLinh")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("NguoiDung")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("TrangThai")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.HasKey("MaSoLogDangKi")
+                        .HasName("CLS_NHM_LogDangKi_pkey");
+
+                    b.ToTable("CLS_NHM_LogDangKi", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmLogMau", b =>
+                {
+                    b.Property<int>("MaSoLogMau")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoLogMau"));
+
+                    b.Property<string>("GhiChu")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("HanhDong")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("MaLogMau")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int>("MaSoTuiMau")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("NguoiDung")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("TrangThai")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.HasKey("MaSoLogMau")
+                        .HasName("CLS_NHM_LogMau_pkey");
+
+                    b.ToTable("CLS_NHM_LogMau", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmLogThuThuat", b =>
+                {
+                    b.Property<int>("MaSoLogThuThuat")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoLogThuThuat"));
+
+                    b.Property<string>("HanhDong")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("MaLogThuThuat")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int>("MaSoLoaiChePham")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("NguoiDung")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("TrangThai")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.HasKey("MaSoLogThuThuat")
+                        .HasName("CLS_NHM_LogThuThuat_pkey");
+
+                    b.ToTable("CLS_NHM_LogThuThuat", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmLogTuiMau", b =>
+                {
+                    b.Property<int>("MaSoLogTuiMau")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoLogTuiMau"));
+
+                    b.Property<string>("GhiChu")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("HanhDong")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<string>("MaLogTuiMau")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int>("MaSoLoaiChePham")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("MaSoPhieuYeuCauLinh")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("NguoiDung")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("TrangThai")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.HasKey("MaSoLogTuiMau")
+                        .HasName("CLS_NHM_LogTuiMau_pkey");
+
+                    b.ToTable("CLS_NHM_LogTuiMau", (string)null);
                 });
 
             modelBuilder.Entity("ToolTestData.Models.ClsNhmMaSanPhamIsbt", b =>
@@ -2777,18 +3082,138 @@ namespace ToolTestData.Migrations
                     b.ToTable("CLS_NHM_PhanLoaiChePham", (string)null);
                 });
 
-            modelBuilder.Entity("ToolTestData.Models.ClsNhmYeuCauLinh", b =>
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmPhieuDangKyMau", b =>
                 {
-                    b.Property<int>("MaSoYeuCauLinh")
+                    b.Property<int>("MaSoPhieuDangKyMau")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
 
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoYeuCauLinh"));
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoPhieuDangKyMau"));
 
-                    b.Property<int>("Loai")
+                    b.Property<int>("Can")
                         .HasColumnType("integer");
 
-                    b.Property<int>("MaDonVi")
+                    b.Property<DateTime>("GioDangKy")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<string>("MaPhieuDangKyMau")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int>("MaSoChiTietXn")
+                        .HasColumnType("integer")
+                        .HasColumnName("MaSoChiTietXN");
+
+                    b.Property<int>("MaSoLoaiChePham")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("MaSoPhieuNoiTru")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("MaSoTuiMau")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("NguoiDangKy")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("NhanVienXn")
+                        .HasColumnType("integer")
+                        .HasColumnName("NhanVienXN");
+
+                    b.Property<bool>("TrangThai")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("TrangThaiDkm")
+                        .HasColumnType("integer")
+                        .HasColumnName("TrangThaiDKM");
+
+                    b.Property<int>("TranhThaiYeuCauLinh")
+                        .HasColumnType("integer");
+
+                    b.HasKey("MaSoPhieuDangKyMau")
+                        .HasName("CLS_NHM_PhieuDangKyMau_pkey");
+
+                    b.ToTable("CLS_NHM_PhieuDangKyMau", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmPhieuHoanKho", b =>
+                {
+                    b.Property<int>("MaSoPhieuHoanKho")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoPhieuHoanKho"));
+
+                    b.Property<DateTime>("GioHoanTra")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<string>("LyDo")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("LyDoTra")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<int>("MaNguoiHoanTra")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("MaPhieuHoanKho")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int>("MaSoPhieuYeuCauLinh")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<bool>("TrangThai")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.HasKey("MaSoPhieuHoanKho")
+                        .HasName("CLS_NHM_PhieuHoanKho_pkey");
+
+                    b.ToTable("CLS_NHM_PhieuHoanKho", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmPhieuYeuCauLinh", b =>
+                {
+                    b.Property<int>("MaSoPhieuYeuCauLinh")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoPhieuYeuCauLinh"));
+
+                    b.Property<DateTime>("GioXuatKho")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<int>("Loai")
                         .HasColumnType("integer");
 
                     b.Property<int>("MaKho")
@@ -2797,7 +3222,19 @@ namespace ToolTestData.Migrations
                     b.Property<int>("MaKhoa")
                         .HasColumnType("integer");
 
-                    b.Property<string>("MaYeuCauLinh")
+                    b.Property<int>("MaNguoiNhan")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("MaNguoiXuat")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("MaSoPhieuDangKy")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("MaSoTuiMau")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("MaXuatKho")
                         .IsRequired()
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)");
@@ -2813,18 +3250,107 @@ namespace ToolTestData.Migrations
                     b.Property<DateTime>("NgayYeuCau")
                         .HasColumnType("timestamp(3) without time zone");
 
-                    b.Property<int>("TheTich")
+                    b.Property<string>("TenKhac")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("TgPhatMau")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<bool>("TrangThai")
+                        .HasColumnType("boolean");
+
+                    b.HasKey("MaSoPhieuYeuCauLinh")
+                        .HasName("CLS_NHM_PhieuYeuCauLinh_pkey");
+
+                    b.ToTable("CLS_NHM_PhieuYeuCauLinh", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsNhmTuiMau", b =>
+                {
+                    b.Property<int>("MaSoTuiMau")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoTuiMau"));
+
+                    b.Property<bool>("ChiTietXuat")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("DangOkho")
+                        .HasColumnType("integer")
+                        .HasColumnName("DangOKho");
+
+                    b.Property<string>("GhiChu")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<int>("GiaTien")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("GioNhap")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("HanDung")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<int>("MaSoMaSanPham")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("MaSoNhomMauTheoIsbt")
+                        .HasColumnType("integer")
+                        .HasColumnName("MaSoNhomMauTheoISBT");
+
+                    b.Property<string>("MaTuiMau")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<int>("NguoiCapNhat")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("NguoiTao")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PhiDieuChe")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("PhiVanChuyen")
+                        .HasColumnType("integer");
+
+                    b.Property<bool>("PhieuDangKi")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<string>("TenTuiMau")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
 
                     b.Property<bool>("TrangThai")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("boolean")
                         .HasDefaultValue(true);
 
-                    b.HasKey("MaSoYeuCauLinh")
-                        .HasName("CLS_NHM_YeuCauLinh_pkey");
+                    b.Property<int>("TrangThaiTuiMau")
+                        .HasColumnType("integer");
 
-                    b.ToTable("CLS_NHM_YeuCauLinh", (string)null);
+                    b.HasKey("MaSoTuiMau")
+                        .HasName("CLS_NHM_TuiMau_pkey");
+
+                    b.ToTable("CLS_NHM_TuiMau", (string)null);
                 });
 
             modelBuilder.Entity("ToolTestData.Models.ClsPhanLoaiNhomDichVu", b =>
@@ -3010,6 +3536,50 @@ namespace ToolTestData.Migrations
                     b.HasIndex(new[] { "MaSoPhieuChiDinh", "MaPhieuChiDinh" }, "CLS_PhieuChiDinh_MaSoPhieuChiDinh_MaPhieuChiDinh_idx");
 
                     b.ToTable("CLS_PhieuChiDinh", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsPhieuYeuCauChinhSua", b =>
+                {
+                    b.Property<int>("MaSoPhieuYeuCauChinhSua")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoPhieuYeuCauChinhSua"));
+
+                    b.Property<string>("LyDoChinhSua")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("character varying(255)");
+
+                    b.Property<string>("MaPhieuYeuCauChinhSua")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.Property<int?>("MaSoPhieuChiDinh")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("NgayCapNhat")
+                        .HasColumnType("timestamp(3) without time zone");
+
+                    b.Property<DateTime>("NgayTao")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("timestamp(3) without time zone")
+                        .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                    b.Property<bool>("TrangThai")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("boolean")
+                        .HasDefaultValue(true);
+
+                    b.Property<int>("TrangThaiCs")
+                        .HasColumnType("integer")
+                        .HasColumnName("TrangThaiCS");
+
+                    b.HasKey("MaSoPhieuYeuCauChinhSua")
+                        .HasName("CLS_PhieuYeuCauChinhSua_pkey");
+
+                    b.ToTable("CLS_PhieuYeuCauChinhSua", (string)null);
                 });
 
             modelBuilder.Entity("ToolTestData.Models.ClsSoDaCap", b =>
@@ -3743,6 +4313,25 @@ namespace ToolTestData.Migrations
                         .HasName("CLS_TDCN_DienCo_KetQuaHSTGTiemCoTay_pkey");
 
                     b.ToTable("CLS_TDCN_DienCo_KetQuaHSTGTiemCoTay", (string)null);
+                });
+
+            modelBuilder.Entity("ToolTestData.Models.ClsText", b =>
+                {
+                    b.Property<int>("MaSoClsText")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MaSoClsText"));
+
+                    b.Property<string>("MaClsText")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("character varying(50)");
+
+                    b.HasKey("MaSoClsText")
+                        .HasName("CLS_TEXT_pkey");
+
+                    b.ToTable("CLS_TEXT", (string)null);
                 });
 
             modelBuilder.Entity("ToolTestData.Models.ClsThuocCuaBn", b =>

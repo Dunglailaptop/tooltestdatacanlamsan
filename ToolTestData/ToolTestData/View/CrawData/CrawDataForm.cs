@@ -1,6 +1,11 @@
-﻿using DevExpress.XtraEditors;
+﻿using DevExpress.ChartRangeControlClient.Core;
+using DevExpress.Xpo;
+using DevExpress.XtraBars;
+using DevExpress.XtraEditors;
+using DevExpress.XtraEditors.Repository;
 using DevExpress.XtraGrid;
 using DevExpress.XtraGrid.Views.Grid;
+using DevExpress.XtraRichEdit.Model;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -15,14 +20,21 @@ using System.Windows.Forms;
 
 namespace ToolTestData.View.CrawData
 {
-    public partial class CrawDataForm : DevExpress.XtraEditors.XtraForm
+    public partial class CrawDataForm : DevExpress.XtraEditors.XtraForm, CrawDataView
     {
+        private BarManager barManager;
+        private Bar bar;
+        private BarEditItem barEditItemComboBox;
+        private RepositoryItemComboBox repositoryItemComboBox;
         public CrawDataForm()
         {
             InitializeComponent();
             gridView1.RowClick += GridView1_RowClick;
+           
         }
 
+
+      
         private void GridView1_RowClick(object sender, RowClickEventArgs e)
         {
             // Lấy đối tượng được click
@@ -93,6 +105,24 @@ namespace ToolTestData.View.CrawData
 
         private void gridControl1_Click(object sender, EventArgs e)
         {
+
+        }
+
+       
+
+        public void show()
+        {
+            throw new NotImplementedException();
+        }
+
+       
+
+        public void setAllListTableBindingSource(System.Windows.Forms.BindingSource TableListSource)
+        {
+           
+            lookUpEdit1.Properties.DataSource = TableListSource;
+            lookUpEdit1.Properties.DisplayMember = "Name";
+            lookUpEdit1.Properties.ValueMember = "Name";
 
         }
     }

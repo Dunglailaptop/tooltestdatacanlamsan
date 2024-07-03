@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace ToolTestData.Migrations
 {
     /// <inheritdoc />
-    public partial class MigrationName : Migration
+    public partial class AddYourNewEntity : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -51,6 +51,7 @@ namespace ToolTestData.Migrations
                     MaSoBenhNhan = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     MaBenhNhan = table.Column<string>(type: "character varying(100)", maxLength: 100, nullable: false),
+                    MaPhatSinh = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
                     TenBenhNhan = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
                     GioiTinh = table.Column<int>(type: "integer", nullable: false),
                     NgaySinh = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
@@ -65,8 +66,7 @@ namespace ToolTestData.Migrations
                     LanKhamCuoi = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: true),
                     TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
                     NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
-                    MaPhatSinh = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false)
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -413,10 +413,10 @@ namespace ToolTestData.Migrations
                     MaSoThietBi = table.Column<int>(type: "integer", nullable: false),
                     MaSoPhieuChiDinh = table.Column<int>(type: "integer", nullable: false),
                     MaSoMauKetQua = table.Column<int>(type: "integer", nullable: false),
+                    MaSoCaChup = table.Column<int>(type: "integer", nullable: false),
                     TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
                     NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
-                    MaSoCaChup = table.Column<int>(type: "integer", nullable: false)
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -440,10 +440,10 @@ namespace ToolTestData.Migrations
                     MaSoThietBi = table.Column<int>(type: "integer", nullable: false),
                     MaSoPhieuChiDinh = table.Column<int>(type: "integer", nullable: false),
                     MaSoMauKetQua = table.Column<int>(type: "integer", nullable: false),
+                    MaSoCaChup = table.Column<int>(type: "integer", nullable: false),
                     TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
                     NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
-                    MaSoCaChup = table.Column<int>(type: "integer", nullable: false)
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -926,6 +926,32 @@ namespace ToolTestData.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "CLS_NHM_BienBanHuy",
+                columns: table => new
+                {
+                    MaSoBienBanHuy = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaBienBanHuy = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    TrangThaiBBH = table.Column<int>(type: "integer", nullable: false),
+                    HinhAnhBienBan = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    LyDo = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    GioTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    NguoiTao = table.Column<int>(type: "integer", nullable: false),
+                    NguoiDuyet = table.Column<int>(type: "integer", nullable: false),
+                    GioDuyet = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    GioXacNhan = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    MaSoTuiMau = table.Column<int>(type: "integer", nullable: false),
+                    ChuThich = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_NHM_BienBanHuy_pkey", x => x.MaSoBienBanHuy);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "CLS_NHM_ChiTietLoMau",
                 columns: table => new
                 {
@@ -944,6 +970,25 @@ namespace ToolTestData.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("CLS_NHM_ChiTietLoMau_pkey", x => x.MaSoChiTietLoMau);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CLS_NHM_ChiTietPhieuDangKyMau",
+                columns: table => new
+                {
+                    MaSoChiTietPhieuDangKyMau = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaSoPhieuDangKyMau = table.Column<int>(type: "integer", nullable: false),
+                    NgayDuTru = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    NguoiNhap = table.Column<int>(type: "integer", nullable: false),
+                    MaSoPhieuChiDinh = table.Column<int>(type: "integer", nullable: false),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_NHM_ChiTietPhieuDangKyMau_pkey", x => x.MaSoChiTietPhieuDangKyMau);
                 });
 
             migrationBuilder.CreateTable(
@@ -1019,6 +1064,86 @@ namespace ToolTestData.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "CLS_NHM_LogDangKi",
+                columns: table => new
+                {
+                    MaSoLogDangKi = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaSoPhieuYeuCauLinh = table.Column<int>(type: "integer", nullable: false),
+                    NguoiDung = table.Column<int>(type: "integer", nullable: false),
+                    HanhDong = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    GhiChu = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    MaLogDangKi = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_NHM_LogDangKi_pkey", x => x.MaSoLogDangKi);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CLS_NHM_LogMau",
+                columns: table => new
+                {
+                    MaSoLogMau = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaSoTuiMau = table.Column<int>(type: "integer", nullable: false),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    NguoiDung = table.Column<int>(type: "integer", nullable: false),
+                    HanhDong = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    GhiChu = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    MaLogMau = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_NHM_LogMau_pkey", x => x.MaSoLogMau);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CLS_NHM_LogThuThuat",
+                columns: table => new
+                {
+                    MaSoLogThuThuat = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaSoLoaiChePham = table.Column<int>(type: "integer", nullable: false),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    NguoiDung = table.Column<int>(type: "integer", nullable: false),
+                    HanhDong = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    MaLogThuThuat = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_NHM_LogThuThuat_pkey", x => x.MaSoLogThuThuat);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CLS_NHM_LogTuiMau",
+                columns: table => new
+                {
+                    MaSoLogTuiMau = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaSoLoaiChePham = table.Column<int>(type: "integer", nullable: false),
+                    MaSoPhieuYeuCauLinh = table.Column<int>(type: "integer", nullable: false),
+                    NguoiDung = table.Column<int>(type: "integer", nullable: false),
+                    HanhDong = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    GhiChu = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    MaLogTuiMau = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_NHM_LogTuiMau_pkey", x => x.MaSoLogTuiMau);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "CLS_NHM_LoMau",
                 columns: table => new
                 {
@@ -1030,7 +1155,8 @@ namespace ToolTestData.Migrations
                     MaNhanVien = table.Column<int>(type: "integer", nullable: false),
                     TranhThaiHieuLuc = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
                     NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false)
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    Testdata = table.Column<int>(type: "integer", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -1084,11 +1210,11 @@ namespace ToolTestData.Migrations
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     MaNhomMauTheoISBT = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
                     TenNhomMauTheoISBT = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    NhomMau = table.Column<int>(type: "integer", nullable: false),
+                    YeuToRH = table.Column<int>(type: "integer", nullable: false),
                     TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
                     NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
-                    NhomMau = table.Column<int>(type: "integer", nullable: false),
-                    YeuToRH = table.Column<int>(type: "integer", nullable: false)
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -1113,25 +1239,108 @@ namespace ToolTestData.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "CLS_NHM_YeuCauLinh",
+                name: "CLS_NHM_PhieuDangKyMau",
                 columns: table => new
                 {
-                    MaSoYeuCauLinh = table.Column<int>(type: "integer", nullable: false)
+                    MaSoPhieuDangKyMau = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
-                    MaYeuCauLinh = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
-                    MaKho = table.Column<int>(type: "integer", nullable: false),
-                    MaKhoa = table.Column<int>(type: "integer", nullable: false),
-                    TheTich = table.Column<int>(type: "integer", nullable: false),
-                    MaDonVi = table.Column<int>(type: "integer", nullable: false),
-                    NgayYeuCau = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
-                    Loai = table.Column<int>(type: "integer", nullable: false),
+                    MaPhieuDangKyMau = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    MaSoLoaiChePham = table.Column<int>(type: "integer", nullable: false),
+                    MaSoTuiMau = table.Column<int>(type: "integer", nullable: false),
+                    GioDangKy = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    NguoiDangKy = table.Column<int>(type: "integer", nullable: false),
+                    TrangThaiDKM = table.Column<int>(type: "integer", nullable: false),
+                    TranhThaiYeuCauLinh = table.Column<int>(type: "integer", nullable: false),
+                    MaSoChiTietXN = table.Column<int>(type: "integer", nullable: false),
+                    NhanVienXN = table.Column<int>(type: "integer", nullable: false),
+                    Can = table.Column<int>(type: "integer", nullable: false),
+                    MaSoPhieuNoiTru = table.Column<int>(type: "integer", nullable: false),
                     TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
                     NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
                     NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("CLS_NHM_YeuCauLinh_pkey", x => x.MaSoYeuCauLinh);
+                    table.PrimaryKey("CLS_NHM_PhieuDangKyMau_pkey", x => x.MaSoPhieuDangKyMau);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CLS_NHM_PhieuHoanKho",
+                columns: table => new
+                {
+                    MaSoPhieuHoanKho = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaPhieuHoanKho = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    MaSoPhieuYeuCauLinh = table.Column<int>(type: "integer", nullable: false),
+                    LyDoTra = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    LyDo = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    GioHoanTra = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    MaNguoiHoanTra = table.Column<int>(type: "integer", nullable: false),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_NHM_PhieuHoanKho_pkey", x => x.MaSoPhieuHoanKho);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CLS_NHM_PhieuYeuCauLinh",
+                columns: table => new
+                {
+                    MaSoPhieuYeuCauLinh = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaXuatKho = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    MaKho = table.Column<int>(type: "integer", nullable: false),
+                    MaKhoa = table.Column<int>(type: "integer", nullable: false),
+                    MaNguoiNhan = table.Column<int>(type: "integer", nullable: false),
+                    TenKhac = table.Column<string>(type: "text", nullable: false),
+                    NgayYeuCau = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    TgPhatMau = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    MaSoPhieuDangKy = table.Column<int>(type: "integer", nullable: false),
+                    MaNguoiXuat = table.Column<int>(type: "integer", nullable: false),
+                    GioXuatKho = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    Loai = table.Column<int>(type: "integer", nullable: false),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    MaSoTuiMau = table.Column<int>(type: "integer", nullable: false),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_NHM_PhieuYeuCauLinh_pkey", x => x.MaSoPhieuYeuCauLinh);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CLS_NHM_TuiMau",
+                columns: table => new
+                {
+                    MaSoTuiMau = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaTuiMau = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    TenTuiMau = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    MaSoMaSanPham = table.Column<int>(type: "integer", nullable: false),
+                    MaSoNhomMauTheoISBT = table.Column<int>(type: "integer", nullable: false),
+                    GhiChu = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    TrangThaiTuiMau = table.Column<int>(type: "integer", nullable: false),
+                    GioNhap = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    HanDung = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    DangOKho = table.Column<int>(type: "integer", nullable: false),
+                    PhieuDangKi = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    ChiTietXuat = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    GiaTien = table.Column<int>(type: "integer", nullable: false),
+                    PhiDieuChe = table.Column<int>(type: "integer", nullable: false),
+                    PhiVanChuyen = table.Column<int>(type: "integer", nullable: false),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    NguoiCapNhat = table.Column<int>(type: "integer", nullable: false),
+                    NguoiTao = table.Column<int>(type: "integer", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_NHM_TuiMau_pkey", x => x.MaSoTuiMau);
                 });
 
             migrationBuilder.CreateTable(
@@ -1197,14 +1406,33 @@ namespace ToolTestData.Migrations
                     MaSoLoaiDichVu = table.Column<int>(type: "integer", nullable: false),
                     MaSoBenhNhan = table.Column<int>(type: "integer", nullable: false),
                     MaSoDotKham = table.Column<int>(type: "integer", nullable: false),
+                    MaSoLoaiPhieuChiDinh = table.Column<int>(type: "integer", nullable: false),
                     GioChiDinh = table.Column<DateTime>(type: "timestamp without time zone", nullable: false),
                     NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
-                    MaSoLoaiPhieuChiDinh = table.Column<int>(type: "integer", nullable: false)
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("CLS_PhieuChiDinh_pkey", x => x.MaSoPhieuChiDinh);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "CLS_PhieuYeuCauChinhSua",
+                columns: table => new
+                {
+                    MaSoPhieuYeuCauChinhSua = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaPhieuYeuCauChinhSua = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
+                    MaSoPhieuChiDinh = table.Column<int>(type: "integer", nullable: true),
+                    LyDoChinhSua = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    TrangThaiCS = table.Column<int>(type: "integer", nullable: false),
+                    TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
+                    NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
+                    NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP")
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("CLS_PhieuYeuCauChinhSua_pkey", x => x.MaSoPhieuYeuCauChinhSua);
                 });
 
             migrationBuilder.CreateTable(
@@ -1573,16 +1801,16 @@ namespace ToolTestData.Migrations
                 {
                     MaSoCoSo = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    MaCoSo = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false),
                     TenTiengViet = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
                     TenTiengAnh = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
                     MoTaTiengViet = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
                     MoTaTiengAnh = table.Column<string>(type: "character varying(255)", maxLength: 255, nullable: false),
+                    TruSo = table.Column<int>(type: "integer", nullable: false, defaultValue: 0),
                     TrangThai = table.Column<bool>(type: "boolean", nullable: false, defaultValue: true),
                     NgayTao = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
                     NgayCapNhat = table.Column<DateTime>(type: "timestamp(3) without time zone", nullable: false),
-                    MaBenhVien = table.Column<int>(type: "integer", nullable: true),
-                    TruSo = table.Column<int>(type: "integer", nullable: false, defaultValue: 0),
-                    MaCoSo = table.Column<string>(type: "character varying(50)", maxLength: 50, nullable: false)
+                    MaBenhVien = table.Column<int>(type: "integer", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -4294,7 +4522,13 @@ namespace ToolTestData.Migrations
                 name: "CLS_LoaiPhieuChiDinh");
 
             migrationBuilder.DropTable(
+                name: "CLS_NHM_BienBanHuy");
+
+            migrationBuilder.DropTable(
                 name: "CLS_NHM_ChiTietLoMau");
+
+            migrationBuilder.DropTable(
+                name: "CLS_NHM_ChiTietPhieuDangKyMau");
 
             migrationBuilder.DropTable(
                 name: "CLS_NHM_DanhMucMau");
@@ -4304,6 +4538,18 @@ namespace ToolTestData.Migrations
 
             migrationBuilder.DropTable(
                 name: "CLS_NHM_LoaiChePham");
+
+            migrationBuilder.DropTable(
+                name: "CLS_NHM_LogDangKi");
+
+            migrationBuilder.DropTable(
+                name: "CLS_NHM_LogMau");
+
+            migrationBuilder.DropTable(
+                name: "CLS_NHM_LogThuThuat");
+
+            migrationBuilder.DropTable(
+                name: "CLS_NHM_LogTuiMau");
 
             migrationBuilder.DropTable(
                 name: "CLS_NHM_LoMau");
@@ -4321,7 +4567,16 @@ namespace ToolTestData.Migrations
                 name: "CLS_NHM_PhanLoaiChePham");
 
             migrationBuilder.DropTable(
-                name: "CLS_NHM_YeuCauLinh");
+                name: "CLS_NHM_PhieuDangKyMau");
+
+            migrationBuilder.DropTable(
+                name: "CLS_NHM_PhieuHoanKho");
+
+            migrationBuilder.DropTable(
+                name: "CLS_NHM_PhieuYeuCauLinh");
+
+            migrationBuilder.DropTable(
+                name: "CLS_NHM_TuiMau");
 
             migrationBuilder.DropTable(
                 name: "CLS_PhanLoaiNhomDichVu");
@@ -4331,6 +4586,9 @@ namespace ToolTestData.Migrations
 
             migrationBuilder.DropTable(
                 name: "CLS_PhieuChiDinh");
+
+            migrationBuilder.DropTable(
+                name: "CLS_PhieuYeuCauChinhSua");
 
             migrationBuilder.DropTable(
                 name: "CLS_SoDaCap");

@@ -10,6 +10,8 @@ namespace ToolTestData.View.NhapLieu.LoMau
     {
         void SetBindingDataSourceLoMau(BindingSource LoMauSource);
 
+        void SetBindingDataSourceTuiMau(BindingSource TuiMauSource);
+
         void show();
     }
 }

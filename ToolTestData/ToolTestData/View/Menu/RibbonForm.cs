@@ -17,6 +17,7 @@ using ToolTestData.View.NhapLieu.KhuVuc;
 using ToolTestData.View.NhapLieu.LuotSuIn;
 using ToolTestData.View.NhapLieu.Phong;
 using ToolTestData.View.CrawData;
+using ToolTestData.View.NhapLieu.LoMau;
 
 namespace ToolTestData.View.Menu
 {
@@ -80,6 +81,20 @@ namespace ToolTestData.View.Menu
                         new PhongPresenter(PhongForms, context);
                     }
                     break;
+                case 4:
+                    if(form is LoMauForm loMauForms)
+                    {
+                        ClsContext context = new ClsContext();
+                        new LoMauPresenter(loMauForms, context);
+                    }
+                    break;
+                case 5:
+                    if (form is CrawDataForm CrawDataForms)
+                    {
+                        ClsContext context = new ClsContext();
+                        new CrawDataPresenter(CrawDataForms, context);
+                    }
+                    break;
             }
 
             form.MdiParent = this;
@@ -121,7 +136,7 @@ namespace ToolTestData.View.Menu
 
         private void barButtonItem15_ItemClick(object sender, ItemClickEventArgs e)
         {
-            openchild(typeof(CrawDataForm), 9);
+            openchild(typeof(CrawDataForm), 5);
         }
 
         private void barButtonItem12_ItemClick(object sender, ItemClickEventArgs e)
@@ -142,6 +157,11 @@ namespace ToolTestData.View.Menu
         private void barButtonItem22_ItemClick(object sender, ItemClickEventArgs e)
         {
 
+        }
+
+        private void barButtonItem6_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(LoMauForm), 4);
         }
     }
 }
