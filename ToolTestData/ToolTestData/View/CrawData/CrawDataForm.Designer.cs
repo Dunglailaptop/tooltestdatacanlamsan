@@ -131,15 +131,15 @@
             barDockControlTop.Dock = DockStyle.Top;
             barDockControlTop.Location = new Point(0, 0);
             barDockControlTop.Manager = barManager1;
-            barDockControlTop.Size = new Size(1029, 29);
+            barDockControlTop.Size = new Size(987, 29);
             // 
             // barDockControlBottom
             // 
             barDockControlBottom.CausesValidation = false;
             barDockControlBottom.Dock = DockStyle.Bottom;
-            barDockControlBottom.Location = new Point(0, 573);
+            barDockControlBottom.Location = new Point(0, 555);
             barDockControlBottom.Manager = barManager1;
-            barDockControlBottom.Size = new Size(1029, 21);
+            barDockControlBottom.Size = new Size(987, 21);
             // 
             // barDockControlLeft
             // 
@@ -147,15 +147,15 @@
             barDockControlLeft.Dock = DockStyle.Left;
             barDockControlLeft.Location = new Point(0, 29);
             barDockControlLeft.Manager = barManager1;
-            barDockControlLeft.Size = new Size(0, 544);
+            barDockControlLeft.Size = new Size(0, 526);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = DockStyle.Right;
-            barDockControlRight.Location = new Point(1029, 29);
+            barDockControlRight.Location = new Point(987, 29);
             barDockControlRight.Manager = barManager1;
-            barDockControlRight.Size = new Size(0, 544);
+            barDockControlRight.Size = new Size(0, 526);
             // 
             // barEditItem1
             // 
@@ -214,7 +214,7 @@
             splitContainerControl1.Panel2.Controls.Add(gridControl2);
             splitContainerControl1.Panel2.Controls.Add(panel1);
             splitContainerControl1.Panel2.Text = "Panel2";
-            splitContainerControl1.Size = new Size(1029, 544);
+            splitContainerControl1.Size = new Size(987, 526);
             splitContainerControl1.SplitterPosition = 237;
             splitContainerControl1.TabIndex = 4;
             // 
@@ -225,7 +225,7 @@
             gridControl1.MainView = gridView1;
             gridControl1.MenuManager = barManager1;
             gridControl1.Name = "gridControl1";
-            gridControl1.Size = new Size(237, 544);
+            gridControl1.Size = new Size(237, 526);
             gridControl1.TabIndex = 0;
             gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
             gridControl1.Click += gridControl1_Click;
@@ -242,7 +242,7 @@
             gridControl2.MainView = gridView2;
             gridControl2.MenuManager = barManager1;
             gridControl2.Name = "gridControl2";
-            gridControl2.Size = new Size(786, 517);
+            gridControl2.Size = new Size(744, 499);
             gridControl2.TabIndex = 1;
             gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView2 });
             // 
@@ -258,7 +258,7 @@
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(786, 27);
+            panel1.Size = new Size(744, 27);
             panel1.TabIndex = 0;
             // 
             // lookUpEdit1
@@ -270,7 +270,7 @@
             lookUpEdit1.Properties.Appearance.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lookUpEdit1.Properties.Appearance.Options.UseFont = true;
             lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] { new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo) });
-            lookUpEdit1.Size = new Size(586, 26);
+            lookUpEdit1.Size = new Size(544, 26);
             lookUpEdit1.TabIndex = 1;
             // 
             // simpleButton1
@@ -288,7 +288,7 @@
             // 
             AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1029, 594);
+            ClientSize = new Size(987, 576);
             Controls.Add(splitContainerControl1);
             Controls.Add(barDockControlLeft);
             Controls.Add(barDockControlRight);

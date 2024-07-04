@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\crawdata\\json\\lomau.json\\2_lomau.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\crawdata\\json\\lomau.json\\2_lomau.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\crawdata\\json\\lomau.json\\2_lomau.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\crawdata\\json\\lomau.json\\2_lomau.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\presenters\\lomaupresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\presenters\\lomaupresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\crawdata\\json\\lomau.json\\1_lomau.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\crawdata\\json\\lomau.json\\1_lomau.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\crawdata\\json\\lomau.json\\1_lomau.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\crawdata\\json\\lomau.json\\1_lomau.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\crawdata\\json\\lomau.json\\0_lomau.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\crawdata\\json\\lomau.json\\0_lomau.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\view\\crawdata\\json\\lomau.json\\0_lomau.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\crawdata\\json\\lomau.json\\0_lomau.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\models\\clsnhmlomau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\models\\clsnhmlomau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\models\\clscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\models\\clscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\crawdata\\crawdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\crawdata\\crawdataform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -27,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\presenters\\lomaupresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\presenters\\lomaupresenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\menu\\ribbonform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -45,14 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\nhaplieu\\lomau\\lomauform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\view\\nhaplieu\\lomau\\lomauform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|d:\\tool\\tooltestdatacanlamsan\\tooltestdata\\tooltestdata\\models\\clsnhmlomau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\models\\clsnhmlomau.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\models\\clscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|solutionrelative:tooltestdata\\models\\clscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B3C277C-4CDD-4DA9-9F42-472B033B0E17}|ToolTestData\\ToolTestData.csproj|D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\tooltestdata\\view\\nhaplieu\\lomau\\lomauform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,7 +137,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -125,46 +149,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "2_LoMau.json",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\2_LoMau.json",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\2_LoMau.json",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\2_LoMau.json",
+              "RelativeToolTip": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\2_LoMau.json",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAG0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T04:15:48.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CrawDataForm.cs",
-              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataForm.cs",
-              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\CrawDataForm.cs",
-              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataForm.cs*",
-              "RelativeToolTip": "ToolTestData\\View\\CrawData\\CrawDataForm.cs*",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAIwHwAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T00:37:11.585Z",
+              "Title": "2_LoMau.csv",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\2_LoMau.csv",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\2_LoMau.csv",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\2_LoMau.csv",
+              "RelativeToolTip": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\2_LoMau.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-07-04T06:57:04.05Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CrawDataView.cs",
-              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataView.cs",
-              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\CrawDataView.cs",
-              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataView.cs",
-              "RelativeToolTip": "ToolTestData\\View\\CrawData\\CrawDataView.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T00:36:29.876Z",
+              "Title": "1_LoMau.json",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\1_LoMau.json",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\1_LoMau.json",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\1_LoMau.json",
+              "RelativeToolTip": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\1_LoMau.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T06:57:02.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "1_LoMau.csv",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\1_LoMau.csv",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\1_LoMau.csv",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\1_LoMau.csv",
+              "RelativeToolTip": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\1_LoMau.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-07-04T06:57:01.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "0_LoMau.json",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\0_LoMau.json",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\0_LoMau.json",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\0_LoMau.json",
+              "RelativeToolTip": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\0_LoMau.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-04T06:57:00.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "0_LoMau.csv",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\0_LoMau.csv",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\0_LoMau.csv",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\Json\\LoMau.json\\0_LoMau.csv",
+              "RelativeToolTip": "ToolTestData\\View\\CrawData\\Json\\LoMau.json\\0_LoMau.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-07-04T06:56:59.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "LoMauPresenter.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\LoMauPresenter.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Presenters\\LoMauPresenter.cs",
               "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\LoMauPresenter.cs",
               "RelativeToolTip": "ToolTestData\\Presenters\\LoMauPresenter.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwCMAAAAIAAAA",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwCMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-02T00:43:59.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "CrawDataPresenter.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\CrawDataPresenter.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Presenters\\CrawDataPresenter.cs",
@@ -177,7 +253,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "CrawDataForm.cs [Design]",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataForm.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\CrawDataForm.cs",
@@ -189,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 13,
               "Title": "BaoCaoPresenter.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\BaoCaoPresenter.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Presenters\\BaoCaoPresenter.cs",
@@ -202,7 +278,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
+              "Title": "ClsContext.cs",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsContext.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\Models\\ClsContext.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsContext.cs",
+              "RelativeToolTip": "ToolTestData\\Models\\ClsContext.cs",
+              "ViewState": "AQIAAMMEAAAAAAAAAAAWwM4EAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T03:29:36.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClsNhmLoMau.cs",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsNhmLoMau.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\Models\\ClsNhmLoMau.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsNhmLoMau.cs",
+              "RelativeToolTip": "ToolTestData\\Models\\ClsNhmLoMau.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T00:33:47.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CrawDataView.cs",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataView.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\CrawDataView.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataView.cs",
+              "RelativeToolTip": "ToolTestData\\View\\CrawData\\CrawDataView.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T00:36:29.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CrawDataForm.cs",
+              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataForm.cs",
+              "RelativeDocumentMoniker": "ToolTestData\\View\\CrawData\\CrawDataForm.cs",
+              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\CrawData\\CrawDataForm.cs*",
+              "RelativeToolTip": "ToolTestData\\View\\CrawData\\CrawDataForm.cs*",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAIwHwAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T00:37:11.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "RibbonForm.cs [Design]",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\Menu\\RibbonForm.cs",
@@ -214,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 15,
               "Title": "RibbonForm.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\Menu\\RibbonForm.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\Menu\\RibbonForm.cs",
@@ -227,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "LuotSuInPresenter.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\LuotSuInPresenter.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Presenters\\LuotSuInPresenter.cs",
@@ -240,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 17,
               "Title": "LoMauView.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LoMau\\LoMauView.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\LoMau\\LoMauView.cs",
@@ -253,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "LoMauForm.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LoMau\\LoMauForm.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\LoMau\\LoMauForm.cs",
@@ -266,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 18,
               "Title": "LoMauForm.cs [Design]",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LoMau\\LoMauForm.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\LoMau\\LoMauForm.cs",
@@ -278,20 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ClsNhmLoMau.cs",
-              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsNhmLoMau.cs",
-              "RelativeDocumentMoniker": "ToolTestData\\Models\\ClsNhmLoMau.cs",
-              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsNhmLoMau.cs",
-              "RelativeToolTip": "ToolTestData\\Models\\ClsNhmLoMau.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAA1wAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T00:33:47.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "KhuVucView.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\KhuVuc\\KhuVucView.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\KhuVuc\\KhuVucView.cs",
@@ -304,20 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ClsContext.cs",
-              "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsContext.cs",
-              "RelativeDocumentMoniker": "ToolTestData\\Models\\ClsContext.cs",
-              "ToolTip": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsContext.cs",
-              "RelativeToolTip": "ToolTestData\\Models\\ClsContext.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAIA2wGsAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T03:29:36.521Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "20240702060549_ClsText.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Migrations\\20240702060549_ClsText.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Migrations\\20240702060549_ClsText.cs",
@@ -330,7 +432,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 22,
               "Title": "20240702034007_AddYourNewEntity.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Migrations\\20240702034007_AddYourNewEntity.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Migrations\\20240702034007_AddYourNewEntity.cs",
@@ -343,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "KhuVucPresenter.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\KhuVucPresenter.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Presenters\\KhuVucPresenter.cs",
@@ -355,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 27,
               "Title": "PhongPresenter.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\PhongPresenter.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Presenters\\PhongPresenter.cs",
@@ -367,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "ClsChiTietTuyDo.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsChiTietTuyDo.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Models\\ClsChiTietTuyDo.cs",
@@ -379,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "ClsText.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Models\\ClsText.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Models\\ClsText.cs",
@@ -391,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 28,
               "Title": "BacSiPresenter.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Presenters\\BacSiPresenter.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Presenters\\BacSiPresenter.cs",
@@ -403,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\Program.cs",
               "RelativeDocumentMoniker": "ToolTestData\\Program.cs",
@@ -415,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 30,
               "Title": "LuotSuInView.cs",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInView.cs",
               "RelativeDocumentMoniker": "ToolTestData\\View\\NhapLieu\\LuotSuIn\\LuotSuInView.cs",
@@ -427,7 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 29,
               "Title": "ToolTestData",
               "DocumentMoniker": "D:\\tool\\tooltestdatacanlamsan\\ToolTestData\\ToolTestData\\ToolTestData.csproj",
               "RelativeDocumentMoniker": "ToolTestData\\ToolTestData.csproj",
@@ -439,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 31,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",

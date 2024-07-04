@@ -31,6 +31,10 @@ namespace ToolTestData.Presenters
             this.view.SetBindingDataSourceTuiMau(DataBindingSourceTuiMau);
             loadAll();
         }
+        public void AddDatabase()
+        {
+
+        }
 
         private void loadAll()
         {
