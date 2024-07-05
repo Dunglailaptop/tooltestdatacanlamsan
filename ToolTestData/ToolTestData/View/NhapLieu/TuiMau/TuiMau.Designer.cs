@@ -1,6 +1,6 @@
-﻿namespace ToolTestData.View.NhapLieu.BacSi
+﻿namespace ToolTestData.View.NhapLieu.TuiMau
 {
-    partial class BacSiForm
+    partial class TuiMau
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,9 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BacSiForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TuiMau));
+            gridControl1 = new DevExpress.XtraGrid.GridControl();
+            gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             barManager1 = new DevExpress.XtraBars.BarManager(components);
             bar1 = new DevExpress.XtraBars.Bar();
             barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
@@ -39,12 +41,26 @@
             barDockControlBottom = new DevExpress.XtraBars.BarDockControl();
             barDockControlLeft = new DevExpress.XtraBars.BarDockControl();
             barDockControlRight = new DevExpress.XtraBars.BarDockControl();
-            gridControl1 = new DevExpress.XtraGrid.GridControl();
-            gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            ((System.ComponentModel.ISupportInitialize)barManager1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gridControl1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)gridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)barManager1).BeginInit();
             SuspendLayout();
+            // 
+            // gridControl1
+            // 
+            gridControl1.Dock = DockStyle.Fill;
+            gridControl1.Location = new Point(0, 29);
+            gridControl1.MainView = gridView1;
+            gridControl1.MenuManager = barManager1;
+            gridControl1.Name = "gridControl1";
+            gridControl1.Size = new Size(798, 329);
+            gridControl1.TabIndex = 5;
+            gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
+            // 
+            // gridView1
+            // 
+            gridView1.GridControl = gridControl1;
+            gridView1.Name = "gridView1";
             // 
             // barManager1
             // 
@@ -101,15 +117,15 @@
             barDockControlTop.Dock = DockStyle.Top;
             barDockControlTop.Location = new Point(0, 0);
             barDockControlTop.Manager = barManager1;
-            barDockControlTop.Size = new Size(1161, 29);
+            barDockControlTop.Size = new Size(798, 29);
             // 
             // barDockControlBottom
             // 
             barDockControlBottom.CausesValidation = false;
             barDockControlBottom.Dock = DockStyle.Bottom;
-            barDockControlBottom.Location = new Point(0, 661);
+            barDockControlBottom.Location = new Point(0, 358);
             barDockControlBottom.Manager = barManager1;
-            barDockControlBottom.Size = new Size(1161, 21);
+            barDockControlBottom.Size = new Size(798, 21);
             // 
             // barDockControlLeft
             // 
@@ -117,54 +133,40 @@
             barDockControlLeft.Dock = DockStyle.Left;
             barDockControlLeft.Location = new Point(0, 29);
             barDockControlLeft.Manager = barManager1;
-            barDockControlLeft.Size = new Size(0, 632);
+            barDockControlLeft.Size = new Size(0, 329);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = DockStyle.Right;
-            barDockControlRight.Location = new Point(1161, 29);
+            barDockControlRight.Location = new Point(798, 29);
             barDockControlRight.Manager = barManager1;
-            barDockControlRight.Size = new Size(0, 632);
+            barDockControlRight.Size = new Size(0, 329);
             // 
-            // gridControl1
-            // 
-            gridControl1.Dock = DockStyle.Fill;
-            gridControl1.Location = new Point(0, 29);
-            gridControl1.MainView = gridView1;
-            gridControl1.MenuManager = barManager1;
-            gridControl1.Name = "gridControl1";
-            gridControl1.Size = new Size(1161, 632);
-            gridControl1.TabIndex = 4;
-            gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
-            // 
-            // gridView1
-            // 
-            gridView1.GridControl = gridControl1;
-            gridView1.Name = "gridView1";
-            // 
-            // BacSiForm
+            // TuiMau
             // 
             AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1161, 682);
+            ClientSize = new Size(798, 379);
             Controls.Add(gridControl1);
             Controls.Add(barDockControlLeft);
             Controls.Add(barDockControlRight);
             Controls.Add(barDockControlBottom);
             Controls.Add(barDockControlTop);
-            Name = "BacSiForm";
-            Text = "BacSiForm";
-            Load += BacSiForm_Load;
-            ((System.ComponentModel.ISupportInitialize)barManager1).EndInit();
+            Name = "TuiMau";
+            Text = "TuiMau";
+            Load += TuiMau_Load;
             ((System.ComponentModel.ISupportInitialize)gridControl1).EndInit();
             ((System.ComponentModel.ISupportInitialize)gridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)barManager1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
+        private DevExpress.XtraGrid.GridControl gridControl1;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
         private DevExpress.XtraBars.BarManager barManager1;
         private DevExpress.XtraBars.Bar bar1;
         private DevExpress.XtraBars.BarButtonItem barButtonItem1;
@@ -174,7 +176,5 @@
         private DevExpress.XtraBars.BarDockControl barDockControlBottom;
         private DevExpress.XtraBars.BarDockControl barDockControlLeft;
         private DevExpress.XtraBars.BarDockControl barDockControlRight;
-        private DevExpress.XtraGrid.GridControl gridControl1;
-        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
     }
 }

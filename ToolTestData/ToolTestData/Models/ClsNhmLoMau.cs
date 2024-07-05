@@ -7,8 +7,6 @@ public partial class ClsNhmLoMau
 {
     public int MaSoLoMau { get; set; }
 
-    public string MaLoMau { get; set; } = null!;
-
     public string SoBienLai { get; set; } = null!;
 
     public int MaSoNhaCungCap { get; set; }

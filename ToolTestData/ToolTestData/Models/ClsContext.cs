@@ -1234,7 +1234,7 @@ public partial class ClsContext : DbContext
 
             entity.ToTable("CLS_NHM_LoMau");
 
-            entity.Property(e => e.MaLoMau).HasMaxLength(50);
+         
             entity.Property(e => e.NgayCapNhat).HasColumnType("timestamp(3) without time zone");
             entity.Property(e => e.NgayTao)
                 .HasDefaultValueSql("CURRENT_TIMESTAMP")

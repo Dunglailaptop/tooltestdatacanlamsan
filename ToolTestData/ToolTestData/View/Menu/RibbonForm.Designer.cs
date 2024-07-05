@@ -158,6 +158,7 @@
             barButtonItem7.ImageOptions.Image = (Image)resources.GetObject("barButtonItem7.ImageOptions.Image");
             barButtonItem7.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem7.ImageOptions.LargeImage");
             barButtonItem7.Name = "barButtonItem7";
+            barButtonItem7.ItemClick += barButtonItem7_ItemClick;
             // 
             // barButtonItem8
             // 

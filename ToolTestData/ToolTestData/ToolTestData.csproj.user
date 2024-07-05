@@ -25,5 +25,8 @@
     <Compile Update="View\NhapLieu\Phong\PhongForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\NhapLieu\TuiMau\TuiMau.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

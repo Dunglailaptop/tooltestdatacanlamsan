@@ -457,3 +457,4 @@ D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows
 D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.Phong.PhongForm.resources
 D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.BaoCao.BaoCao.resources
 D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.LoMau.LoMauForm.resources
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NhapLieu.TuiMau.TuiMau.resources
