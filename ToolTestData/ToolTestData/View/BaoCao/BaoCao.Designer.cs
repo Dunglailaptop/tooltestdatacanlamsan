@@ -235,11 +235,11 @@
             // ribbonStatusBar
             // 
             ribbonStatusBar.ItemLinks.Add(barButtonItem15);
-            ribbonStatusBar.Location = new Point(0, 517);
-            ribbonStatusBar.Margin = new Padding(4);
+            ribbonStatusBar.Location = new Point(0, 385);
+            ribbonStatusBar.Margin = new Padding(4, 3, 4, 3);
             ribbonStatusBar.Name = "ribbonStatusBar";
             ribbonStatusBar.Ribbon = ribbon;
-            ribbonStatusBar.Size = new Size(1130, 33);
+            ribbonStatusBar.Size = new Size(989, 27);
             // 
             // barButtonItem15
             // 
@@ -252,17 +252,17 @@
             // ribbon
             // 
             ribbon.BackColor = Color.FromArgb(207, 221, 238);
-            ribbon.EmptyAreaImageOptions.ImagePadding = new Padding(35, 37, 35, 37);
+            ribbon.EmptyAreaImageOptions.ImagePadding = new Padding(31, 28, 31, 28);
             ribbon.ExpandCollapseItem.Id = 0;
             ribbon.Items.AddRange(new DevExpress.XtraBars.BarItem[] { ribbon.ExpandCollapseItem, ribbon.SearchEditItem, barButtonItem6, barButtonItem7, barButtonItem8, barButtonItem10, barButtonItem11, barButtonItem12, barButtonItem13, barButtonItem14, barButtonItem15, barButtonItem16, barButtonItem20, barButtonItem21, barButtonItem22, barButtonItem23, barButtonItem24, barButtonItem25, barButtonItem26, barButtonItem27, barButtonItem1, barButtonItem2, barButtonItem3, barButtonItem4, barButtonItem5, barButtonItem17, barButtonItem28, barButtonItem29, barButtonItem30, barButtonItem32, barButtonItem33, barButtonItem34 });
             ribbon.Location = new Point(0, 0);
-            ribbon.Margin = new Padding(4);
+            ribbon.Margin = new Padding(4, 3, 4, 3);
             ribbon.MaxItemId = 47;
             ribbon.Name = "ribbon";
-            ribbon.OptionsMenuMinWidth = 385;
+            ribbon.OptionsMenuMinWidth = 337;
             ribbon.PageHeaderItemLinks.Add(barButtonItem14);
             ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] { ribbonPage1, ribbonPage2, ribbonPage3 });
-            ribbon.Size = new Size(1130, 173);
+            ribbon.Size = new Size(989, 139);
             ribbon.StatusBar = ribbonStatusBar;
             // 
             // barButtonItem14
@@ -421,11 +421,12 @@
             // 
             // BaoCao
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1130, 550);
+            ClientSize = new Size(989, 412);
             Controls.Add(ribbonStatusBar);
             Controls.Add(ribbon);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "BaoCao";
             Text = "BaoCao";
             ((System.ComponentModel.ISupportInitialize)ribbon).EndInit();

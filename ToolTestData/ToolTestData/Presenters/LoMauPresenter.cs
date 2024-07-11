@@ -41,13 +41,15 @@ namespace ToolTestData.Presenters
             try
             {
                 // Chỉ định các cột cần thiết
-                List<string> loMauColumns = new List<string> { "SoBienLai", "MaSoNhaCungCap", "TrangThaiHieuLuc","NgayTao" }; // Thay bằng tên các cột thực tế
+
+                List<string> loMauColumns = new List<string> { "STT","SoBienLai", "MaSoNhaCungCap", "TrangThaiHieuLuc","NgayTao" }; // Thay bằng tên các cột thực tế
                 List<string> tuiMauColumns = new List<string> { "ColumnA", "ColumnB", "ColumnC" }; // Thay bằng tên các cột thực tế
 
              
                 ClsLoMauList = repository.ClsNhmLoMaus.ToList();
                 ClsTuiMauList = repository.ClsNhmTuiMaus.ToList();
-               
+
+          
                 // Chuyển đổi danh sách thành DataTable chỉ với các cột cần thiết
                 DataTable loMauTable = ConvertToDataTableWithSpecificColumns<ClsNhmLoMau>((IList<ClsNhmLoMau>)ClsLoMauList, loMauColumns);
                 DataTable tuiMauTable = ConvertToDataTableWithSpecificColumns<ClsNhmTuiMau>((IList<ClsNhmTuiMau>)ClsTuiMauList, tuiMauColumns);
@@ -67,6 +69,7 @@ namespace ToolTestData.Presenters
             PropertyDescriptorCollection properties = TypeDescriptor.GetProperties(typeof(T));
 
             // Thêm các cột cần thiết vào DataTable
+            table.Columns.Add("STT", typeof(int)); // Thêm cột STT
             foreach (string column in columnsToKeep)
             {
                 var prop = properties.Find(column, true);
@@ -77,9 +80,11 @@ namespace ToolTestData.Presenters
             }
 
             // Thêm các hàng vào DataTable
+            int stt = 1; // Khởi tạo biến đếm STT
             foreach (T item in data)
             {
                 DataRow row = table.NewRow();
+                row["STT"] = stt++; // Gán giá trị cho cột STT
                 foreach (string column in columnsToKeep)
                 {
                     var prop = properties.Find(column, true);
@@ -93,5 +98,6 @@ namespace ToolTestData.Presenters
 
             return table;
         }
+
     }
 }

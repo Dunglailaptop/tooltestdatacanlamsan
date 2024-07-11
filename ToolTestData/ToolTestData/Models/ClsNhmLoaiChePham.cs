@@ -6,6 +6,7 @@ namespace ToolTestData.Models;
 public partial class ClsNhmLoaiChePham
 {
     public int MaSoLoaiChePham { get; set; }
+    public int MaSoLoaiChePhamKhongTang {  get; set; }
 
     public string? MaLoaiChePham { get; set; }
 

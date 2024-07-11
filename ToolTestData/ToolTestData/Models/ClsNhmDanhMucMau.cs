@@ -6,6 +6,8 @@ namespace ToolTestData.Models;
 public partial class ClsNhmDanhMucMau
 {
     public int MaSoDanhMucMau { get; set; }
+    
+    public int MaSoDanhMucMauKoTang { get; set; }
 
     public string MaDanhMucMau { get; set; } = null!;
 
@@ -15,11 +17,11 @@ public partial class ClsNhmDanhMucMau
 
     public int LoaiMau { get; set; }
 
-    public decimal Gia { get; set; }
+    public float Gia { get; set; }
 
-    public double TheTich { get; set; }
+    public float TheTich { get; set; }
 
-    public double TheTichBaoCao { get; set; }
+    public float TheTichBaoCao { get; set; }
 
     public int DoUuTien { get; set; }
 

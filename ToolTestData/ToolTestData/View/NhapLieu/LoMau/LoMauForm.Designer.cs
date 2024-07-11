@@ -90,15 +90,15 @@
             barDockControlTop.Dock = DockStyle.Top;
             barDockControlTop.Location = new Point(0, 0);
             barDockControlTop.Manager = barManager1;
-            barDockControlTop.Size = new Size(360, 25);
+            barDockControlTop.Size = new Size(916, 25);
             // 
             // barDockControlBottom
             // 
             barDockControlBottom.CausesValidation = false;
             barDockControlBottom.Dock = DockStyle.Bottom;
-            barDockControlBottom.Location = new Point(0, 172);
+            barDockControlBottom.Location = new Point(0, 296);
             barDockControlBottom.Manager = barManager1;
-            barDockControlBottom.Size = new Size(360, 21);
+            barDockControlBottom.Size = new Size(916, 21);
             // 
             // barDockControlLeft
             // 
@@ -106,15 +106,15 @@
             barDockControlLeft.Dock = DockStyle.Left;
             barDockControlLeft.Location = new Point(0, 25);
             barDockControlLeft.Manager = barManager1;
-            barDockControlLeft.Size = new Size(0, 147);
+            barDockControlLeft.Size = new Size(0, 271);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = DockStyle.Right;
-            barDockControlRight.Location = new Point(360, 25);
+            barDockControlRight.Location = new Point(916, 25);
             barDockControlRight.Manager = barManager1;
-            barDockControlRight.Size = new Size(0, 147);
+            barDockControlRight.Size = new Size(0, 271);
             // 
             // splitContainerControl1
             // 
@@ -131,7 +131,7 @@
             // 
             splitContainerControl1.Panel2.Controls.Add(gridControl2);
             splitContainerControl1.Panel2.Text = "Panel2";
-            splitContainerControl1.Size = new Size(360, 147);
+            splitContainerControl1.Size = new Size(916, 271);
             splitContainerControl1.SplitterPosition = 313;
             splitContainerControl1.TabIndex = 4;
             // 
@@ -142,7 +142,7 @@
             gridControl1.MainView = gridView1;
             gridControl1.MenuManager = barManager1;
             gridControl1.Name = "gridControl1";
-            gridControl1.Size = new Size(313, 147);
+            gridControl1.Size = new Size(313, 271);
             gridControl1.TabIndex = 0;
             gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
             // 
@@ -158,7 +158,7 @@
             gridControl2.MainView = gridView2;
             gridControl2.MenuManager = barManager1;
             gridControl2.Name = "gridControl2";
-            gridControl2.Size = new Size(41, 147);
+            gridControl2.Size = new Size(597, 271);
             gridControl2.TabIndex = 0;
             gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView2 });
             // 
@@ -171,7 +171,7 @@
             // 
             AutoScaleDimensions = new SizeF(6F, 13F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(360, 193);
+            ClientSize = new Size(916, 317);
             Controls.Add(splitContainerControl1);
             Controls.Add(barDockControlLeft);
             Controls.Add(barDockControlRight);

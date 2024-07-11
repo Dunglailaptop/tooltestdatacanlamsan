@@ -282,6 +282,7 @@
             barButtonItem25.ImageOptions.Image = (Image)resources.GetObject("barButtonItem25.ImageOptions.Image");
             barButtonItem25.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem25.ImageOptions.LargeImage");
             barButtonItem25.Name = "barButtonItem25";
+            barButtonItem25.ItemClick += barButtonItem25_ItemClick;
             // 
             // barButtonItem26
             // 
@@ -289,6 +290,7 @@
             barButtonItem26.Id = 28;
             barButtonItem26.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem26.ImageOptions.SvgImage");
             barButtonItem26.Name = "barButtonItem26";
+            barButtonItem26.ItemClick += barButtonItem26_ItemClick;
             // 
             // barButtonItem27
             // 
@@ -297,6 +299,7 @@
             barButtonItem27.ImageOptions.Image = (Image)resources.GetObject("barButtonItem27.ImageOptions.Image");
             barButtonItem27.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem27.ImageOptions.LargeImage");
             barButtonItem27.Name = "barButtonItem27";
+            barButtonItem27.ItemClick += barButtonItem27_ItemClick;
             // 
             // barButtonItem28
             // 
@@ -311,6 +314,7 @@
             barButtonItem29.Id = 31;
             barButtonItem29.ImageOptions.SvgImage = (DevExpress.Utils.Svg.SvgImage)resources.GetObject("barButtonItem29.ImageOptions.SvgImage");
             barButtonItem29.Name = "barButtonItem29";
+            barButtonItem29.ItemClick += barButtonItem29_ItemClick;
             // 
             // barButtonItem30
             // 
@@ -319,6 +323,7 @@
             barButtonItem30.ImageOptions.Image = (Image)resources.GetObject("barButtonItem30.ImageOptions.Image");
             barButtonItem30.ImageOptions.LargeImage = (Image)resources.GetObject("barButtonItem30.ImageOptions.LargeImage");
             barButtonItem30.Name = "barButtonItem30";
+            barButtonItem30.ItemClick += barButtonItem30_ItemClick;
             // 
             // barButtonItem32
             // 

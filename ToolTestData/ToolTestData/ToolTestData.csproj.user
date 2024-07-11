@@ -10,6 +10,21 @@
     <Compile Update="View\Menu\RibbonForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="View\NganHangMau\DanhMucMau\DanhMucMauForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\NganHangMau\LoaiChePham\LoaiChePhamForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\NganHangMau\MaSanPhamTheoISBT\MaSanPhamTheoISBTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\NganHangMau\NhaCungCap\NhaCungCapForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="View\NganHangMau\NhomMauISBT\NhomMauISBTForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="View\NhapLieu\BacSi\BacSiForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -25,7 +40,7 @@
     <Compile Update="View\NhapLieu\Phong\PhongForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="View\NhapLieu\TuiMau\TuiMau.cs">
+    <Compile Update="View\NganHangMau\TuiMau\TuiMau.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

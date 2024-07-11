@@ -19,6 +19,11 @@ using ToolTestData.View.NhapLieu.Phong;
 using ToolTestData.View.CrawData;
 using ToolTestData.View.NhapLieu.LoMau;
 using ToolTestData.View.NhapLieu.TuiMau;
+using ToolTestData.View.NganHangMau.DanhMucMau;
+using ToolTestData.View.NganHangMau.LoaiChePham;
+using ToolTestData.View.NganHangMau.NhomMauISBT;
+using ToolTestData.View.NganHangMau.MaSanPhamTheoISBT;
+using ToolTestData.View.NganHangMau.NhaCungCap;
 
 namespace ToolTestData.View.Menu
 {
@@ -103,6 +108,41 @@ namespace ToolTestData.View.Menu
                         new TuiMauPresenter(TuiMau, context);
                     }
                     break;
+                case 7:
+                    if (form is DanhMucMauForm danhMucMauForm)
+                    {
+                        ClsContext context = new ClsContext();
+                        new DanhMucMauPresenter(danhMucMauForm, context);
+                    }
+                    break;
+                case 8:
+                    if (form is LoaiChePhamForm LoaiChePhamForm)
+                    {
+                        ClsContext context = new ClsContext();
+                        new LoaiChePhamPresenter(LoaiChePhamForm, context);
+                    }
+                    break;
+                case 9:
+                    if (form is NhomMauISBTForm NhomMauISBTForm)
+                    {
+                        ClsContext context = new ClsContext();
+                        new NhomMauISBTPresenter(NhomMauISBTForm, context);
+                    }
+                    break;
+                case 10:
+                    if (form is MaSanPhamTheoISBTForm MaSanPhamTheoISBTForm)
+                    {
+                        ClsContext context = new ClsContext();
+                        new MaSanPhamTheoISBTPresenter(MaSanPhamTheoISBTForm, context);
+                    }
+                    break;
+                case 11:
+                    if (form is NhaCungCapForm NhaCungCapForm)
+                    {
+                        ClsContext context = new ClsContext();
+                        new NhaCungCapPresenter(NhaCungCapForm, context);
+                    }
+                    break;
             }
 
             form.MdiParent = this;
@@ -175,6 +215,31 @@ namespace ToolTestData.View.Menu
         private void barButtonItem7_ItemClick(object sender, ItemClickEventArgs e)
         {
             openchild(typeof(TuiMau), 6);
+        }
+
+        private void barButtonItem26_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(DanhMucMauForm), 7);
+        }
+
+        private void barButtonItem25_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(LoaiChePhamForm), 8);
+        }
+
+        private void barButtonItem29_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(NhomMauISBTForm), 9);
+        }
+
+        private void barButtonItem30_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(MaSanPhamTheoISBTForm), 10);
+        }
+
+        private void barButtonItem27_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(NhaCungCapForm),11);
         }
     }
 }
