@@ -476,3 +476,5 @@ D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows
 D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.0\System.Data.Odbc.dll
 D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\runtimes\win\lib\netstandard2.0\System.IO.Ports.dll
 D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\bin\Debug\net8.0-windows\ToolTestData.dll.config
+D:\tool\tooltestdatacanlamsan\ToolTestData\ToolTestData\obj\Debug\net8.0-windows\ToolTestData.View.NganHangMau.Kho.CLSNHMKhoForm.resources

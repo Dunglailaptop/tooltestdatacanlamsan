@@ -1,6 +1,6 @@
-﻿namespace ToolTestData.View.NganHangMau.NhomMauISBT
+﻿namespace ToolTestData.View.NganHangMau.Kho
 {
-    partial class NhomMauISBTForm
+    partial class CLSNHMKhoForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(NhomMauISBTForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CLSNHMKhoForm));
             gridControl1 = new DevExpress.XtraGrid.GridControl();
             gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             barManager1 = new DevExpress.XtraBars.BarManager(components);
@@ -49,15 +49,15 @@
             // gridControl1
             // 
             gridControl1.Dock = DockStyle.Fill;
-            gridControl1.EmbeddedNavigator.Margin = new Padding(1);
             gridControl1.Location = new Point(0, 31);
             gridControl1.MainView = gridView1;
             gridControl1.Margin = new Padding(4);
             gridControl1.MenuManager = barManager1;
             gridControl1.Name = "gridControl1";
-            gridControl1.Size = new Size(1132, 368);
-            gridControl1.TabIndex = 6;
+            gridControl1.Size = new Size(821, 302);
+            gridControl1.TabIndex = 7;
             gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
+            gridControl1.Click += gridControl1_Click;
             // 
             // gridView1
             // 
@@ -121,16 +121,16 @@
             barDockControlTop.Location = new Point(0, 0);
             barDockControlTop.Manager = barManager1;
             barDockControlTop.Margin = new Padding(4);
-            barDockControlTop.Size = new Size(1132, 31);
+            barDockControlTop.Size = new Size(821, 31);
             // 
             // barDockControlBottom
             // 
             barDockControlBottom.CausesValidation = false;
             barDockControlBottom.Dock = DockStyle.Bottom;
-            barDockControlBottom.Location = new Point(0, 399);
+            barDockControlBottom.Location = new Point(0, 333);
             barDockControlBottom.Manager = barManager1;
             barDockControlBottom.Margin = new Padding(4);
-            barDockControlBottom.Size = new Size(1132, 21);
+            barDockControlBottom.Size = new Size(821, 21);
             // 
             // barDockControlLeft
             // 
@@ -139,33 +139,29 @@
             barDockControlLeft.Location = new Point(0, 31);
             barDockControlLeft.Manager = barManager1;
             barDockControlLeft.Margin = new Padding(4);
-            barDockControlLeft.Size = new Size(0, 368);
+            barDockControlLeft.Size = new Size(0, 302);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = DockStyle.Right;
-            barDockControlRight.Location = new Point(1132, 31);
+            barDockControlRight.Location = new Point(821, 31);
             barDockControlRight.Manager = barManager1;
             barDockControlRight.Margin = new Padding(4);
-            barDockControlRight.Size = new Size(0, 368);
+            barDockControlRight.Size = new Size(0, 302);
             // 
-            // NhomMauISBTForm
+            // CLSNHMKhoForm
             // 
-            Appearance.Options.UseFont = true;
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1132, 420);
+            ClientSize = new Size(821, 354);
             Controls.Add(gridControl1);
             Controls.Add(barDockControlLeft);
             Controls.Add(barDockControlRight);
             Controls.Add(barDockControlBottom);
             Controls.Add(barDockControlTop);
-            Font = new Font("Times New Roman", 12.75F);
-            Margin = new Padding(4);
-            Name = "NhomMauISBTForm";
-            Text = "NhomMauISBTForm";
-            Load += NhomMauISBTForm_Load;
+            Name = "CLSNHMKhoForm";
+            Text = "CLSNHMKhoForm";
             ((System.ComponentModel.ISupportInitialize)gridControl1).EndInit();
             ((System.ComponentModel.ISupportInitialize)gridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)barManager1).EndInit();

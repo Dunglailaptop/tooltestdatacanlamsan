@@ -235,11 +235,11 @@
             // ribbonStatusBar
             // 
             ribbonStatusBar.ItemLinks.Add(barButtonItem15);
-            ribbonStatusBar.Location = new Point(0, 385);
+            ribbonStatusBar.Location = new Point(0, 383);
             ribbonStatusBar.Margin = new Padding(4, 3, 4, 3);
             ribbonStatusBar.Name = "ribbonStatusBar";
             ribbonStatusBar.Ribbon = ribbon;
-            ribbonStatusBar.Size = new Size(989, 27);
+            ribbonStatusBar.Size = new Size(989, 29);
             // 
             // barButtonItem15
             // 
@@ -262,7 +262,7 @@
             ribbon.OptionsMenuMinWidth = 337;
             ribbon.PageHeaderItemLinks.Add(barButtonItem14);
             ribbon.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] { ribbonPage1, ribbonPage2, ribbonPage3 });
-            ribbon.Size = new Size(989, 139);
+            ribbon.Size = new Size(989, 167);
             ribbon.StatusBar = ribbonStatusBar;
             // 
             // barButtonItem14

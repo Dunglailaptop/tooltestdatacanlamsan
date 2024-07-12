@@ -1,0 +1,27 @@
+[
+    {
+        "Ten": "Nhập",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "1"
+    },
+    {
+        "Ten": "Xuất",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "2"
+    },
+    {
+        "Ten": "Hoàn",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "3"
+    },
+    {
+        "Ten": "Huỷ",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "4"
+    },
+    {
+        "Ten": "Xoá",
+        "Ngaytao": "20/05/2022",
+        "Uutien": "5"
+    }
+]

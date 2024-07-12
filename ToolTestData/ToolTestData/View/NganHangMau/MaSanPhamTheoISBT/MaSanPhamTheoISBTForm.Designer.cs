@@ -49,16 +49,19 @@
             // gridControl1
             // 
             gridControl1.Dock = DockStyle.Fill;
-            gridControl1.Location = new Point(0, 24);
+            gridControl1.EmbeddedNavigator.Margin = new Padding(4);
+            gridControl1.Location = new Point(0, 31);
             gridControl1.MainView = gridView1;
+            gridControl1.Margin = new Padding(4);
             gridControl1.MenuManager = barManager1;
             gridControl1.Name = "gridControl1";
-            gridControl1.Size = new Size(868, 438);
+            gridControl1.Size = new Size(1281, 644);
             gridControl1.TabIndex = 7;
             gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
             // 
             // gridView1
             // 
+            gridView1.DetailHeight = 512;
             gridView1.GridControl = gridControl1;
             gridView1.Name = "gridView1";
             // 
@@ -117,42 +120,47 @@
             barDockControlTop.Dock = DockStyle.Top;
             barDockControlTop.Location = new Point(0, 0);
             barDockControlTop.Manager = barManager1;
-            barDockControlTop.Size = new Size(868, 24);
+            barDockControlTop.Margin = new Padding(4);
+            barDockControlTop.Size = new Size(1281, 31);
             // 
             // barDockControlBottom
             // 
             barDockControlBottom.CausesValidation = false;
             barDockControlBottom.Dock = DockStyle.Bottom;
-            barDockControlBottom.Location = new Point(0, 462);
+            barDockControlBottom.Location = new Point(0, 675);
             barDockControlBottom.Manager = barManager1;
-            barDockControlBottom.Size = new Size(868, 20);
+            barDockControlBottom.Margin = new Padding(4);
+            barDockControlBottom.Size = new Size(1281, 21);
             // 
             // barDockControlLeft
             // 
             barDockControlLeft.CausesValidation = false;
             barDockControlLeft.Dock = DockStyle.Left;
-            barDockControlLeft.Location = new Point(0, 24);
+            barDockControlLeft.Location = new Point(0, 31);
             barDockControlLeft.Manager = barManager1;
-            barDockControlLeft.Size = new Size(0, 438);
+            barDockControlLeft.Margin = new Padding(4);
+            barDockControlLeft.Size = new Size(0, 644);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = DockStyle.Right;
-            barDockControlRight.Location = new Point(868, 24);
+            barDockControlRight.Location = new Point(1281, 31);
             barDockControlRight.Manager = barManager1;
-            barDockControlRight.Size = new Size(0, 438);
+            barDockControlRight.Margin = new Padding(4);
+            barDockControlRight.Size = new Size(0, 644);
             // 
             // MaSanPhamTheoISBTForm
             // 
-            AutoScaleDimensions = new SizeF(6F, 13F);
+            AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(868, 482);
+            ClientSize = new Size(1281, 696);
             Controls.Add(gridControl1);
             Controls.Add(barDockControlLeft);
             Controls.Add(barDockControlRight);
             Controls.Add(barDockControlBottom);
             Controls.Add(barDockControlTop);
+            Margin = new Padding(4);
             Name = "MaSanPhamTheoISBTForm";
             Text = "MaSanPhamTheoISBTForm";
             Load += MaSanPhamTheoISBTForm_Load;

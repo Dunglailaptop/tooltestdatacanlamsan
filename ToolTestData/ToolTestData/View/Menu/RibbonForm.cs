@@ -24,6 +24,7 @@ using ToolTestData.View.NganHangMau.LoaiChePham;
 using ToolTestData.View.NganHangMau.NhomMauISBT;
 using ToolTestData.View.NganHangMau.MaSanPhamTheoISBT;
 using ToolTestData.View.NganHangMau.NhaCungCap;
+using ToolTestData.View.NganHangMau.Kho;
 
 namespace ToolTestData.View.Menu
 {
@@ -143,6 +144,13 @@ namespace ToolTestData.View.Menu
                         new NhaCungCapPresenter(NhaCungCapForm, context);
                     }
                     break;
+                case 12:
+                    if (form is CLSNHMKhoForm CLSNHMKhoForm)
+                    {
+                        ClsContext context = new ClsContext();
+                        new CLSNHMKhoPresenter(CLSNHMKhoForm, context);
+                    }
+                    break;
             }
 
             form.MdiParent = this;
@@ -239,7 +247,12 @@ namespace ToolTestData.View.Menu
 
         private void barButtonItem27_ItemClick(object sender, ItemClickEventArgs e)
         {
-            openchild(typeof(NhaCungCapForm),11);
+            openchild(typeof(NhaCungCapForm), 11);
+        }
+
+        private void barButtonItem28_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            openchild(typeof(CLSNHMKhoForm),12);
         }
     }
 }
