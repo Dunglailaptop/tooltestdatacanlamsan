@@ -11,7 +11,9 @@ public partial class ClsNhmLoMau
 
     public int MaSoNhaCungCap { get; set; }
 
-    public int MaNhanVien { get; set; }
+    public int MaNhanVienTao { get; set; }
+
+    public int MaNhanVienCapNhat { get; set; }
 
     public bool TranhThaiHieuLuc { get; set; }
 

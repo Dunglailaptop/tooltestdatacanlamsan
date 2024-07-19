@@ -131,31 +131,35 @@
             barDockControlTop.Dock = DockStyle.Top;
             barDockControlTop.Location = new Point(0, 0);
             barDockControlTop.Manager = barManager1;
-            barDockControlTop.Size = new Size(987, 29);
+            barDockControlTop.Margin = new Padding(4);
+            barDockControlTop.Size = new Size(1480, 31);
             // 
             // barDockControlBottom
             // 
             barDockControlBottom.CausesValidation = false;
             barDockControlBottom.Dock = DockStyle.Bottom;
-            barDockControlBottom.Location = new Point(0, 555);
+            barDockControlBottom.Location = new Point(0, 821);
             barDockControlBottom.Manager = barManager1;
-            barDockControlBottom.Size = new Size(987, 21);
+            barDockControlBottom.Margin = new Padding(4);
+            barDockControlBottom.Size = new Size(1480, 21);
             // 
             // barDockControlLeft
             // 
             barDockControlLeft.CausesValidation = false;
             barDockControlLeft.Dock = DockStyle.Left;
-            barDockControlLeft.Location = new Point(0, 29);
+            barDockControlLeft.Location = new Point(0, 31);
             barDockControlLeft.Manager = barManager1;
-            barDockControlLeft.Size = new Size(0, 526);
+            barDockControlLeft.Margin = new Padding(4);
+            barDockControlLeft.Size = new Size(0, 790);
             // 
             // barDockControlRight
             // 
             barDockControlRight.CausesValidation = false;
             barDockControlRight.Dock = DockStyle.Right;
-            barDockControlRight.Location = new Point(987, 29);
+            barDockControlRight.Location = new Point(1480, 31);
             barDockControlRight.Manager = barManager1;
-            barDockControlRight.Size = new Size(0, 526);
+            barDockControlRight.Margin = new Padding(4);
+            barDockControlRight.Size = new Size(0, 790);
             // 
             // barEditItem1
             // 
@@ -201,7 +205,8 @@
             // splitContainerControl1
             // 
             splitContainerControl1.Dock = DockStyle.Fill;
-            splitContainerControl1.Location = new Point(0, 29);
+            splitContainerControl1.Location = new Point(0, 31);
+            splitContainerControl1.Margin = new Padding(4);
             splitContainerControl1.Name = "splitContainerControl1";
             // 
             // splitContainerControl1.Panel1
@@ -214,40 +219,46 @@
             splitContainerControl1.Panel2.Controls.Add(gridControl2);
             splitContainerControl1.Panel2.Controls.Add(panel1);
             splitContainerControl1.Panel2.Text = "Panel2";
-            splitContainerControl1.Size = new Size(987, 526);
-            splitContainerControl1.SplitterPosition = 237;
+            splitContainerControl1.Size = new Size(1480, 790);
+            splitContainerControl1.SplitterPosition = 355;
             splitContainerControl1.TabIndex = 4;
             // 
             // gridControl1
             // 
             gridControl1.Dock = DockStyle.Fill;
+            gridControl1.EmbeddedNavigator.Margin = new Padding(4);
             gridControl1.Location = new Point(0, 0);
             gridControl1.MainView = gridView1;
+            gridControl1.Margin = new Padding(4);
             gridControl1.MenuManager = barManager1;
             gridControl1.Name = "gridControl1";
-            gridControl1.Size = new Size(237, 526);
+            gridControl1.Size = new Size(355, 790);
             gridControl1.TabIndex = 0;
             gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView1 });
             gridControl1.Click += gridControl1_Click;
             // 
             // gridView1
             // 
+            gridView1.DetailHeight = 512;
             gridView1.GridControl = gridControl1;
             gridView1.Name = "gridView1";
             // 
             // gridControl2
             // 
             gridControl2.Dock = DockStyle.Fill;
-            gridControl2.Location = new Point(0, 27);
+            gridControl2.EmbeddedNavigator.Margin = new Padding(4);
+            gridControl2.Location = new Point(0, 39);
             gridControl2.MainView = gridView2;
+            gridControl2.Margin = new Padding(4);
             gridControl2.MenuManager = barManager1;
             gridControl2.Name = "gridControl2";
-            gridControl2.Size = new Size(744, 499);
+            gridControl2.Size = new Size(1119, 751);
             gridControl2.TabIndex = 1;
             gridControl2.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] { gridView2 });
             // 
             // gridView2
             // 
+            gridView2.DetailHeight = 512;
             gridView2.GridControl = gridControl2;
             gridView2.Name = "gridView2";
             // 
@@ -257,20 +268,22 @@
             panel1.Controls.Add(simpleButton1);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(744, 27);
+            panel1.Size = new Size(1119, 39);
             panel1.TabIndex = 0;
             // 
             // lookUpEdit1
             // 
             lookUpEdit1.Dock = DockStyle.Fill;
-            lookUpEdit1.Location = new Point(200, 0);
+            lookUpEdit1.Location = new Point(300, 0);
+            lookUpEdit1.Margin = new Padding(4);
             lookUpEdit1.MenuManager = barManager1;
             lookUpEdit1.Name = "lookUpEdit1";
             lookUpEdit1.Properties.Appearance.Font = new Font("Tahoma", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lookUpEdit1.Properties.Appearance.Options.UseFont = true;
             lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] { new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo) });
-            lookUpEdit1.Size = new Size(544, 26);
+            lookUpEdit1.Size = new Size(819, 26);
             lookUpEdit1.TabIndex = 1;
             // 
             // simpleButton1
@@ -279,21 +292,23 @@
             simpleButton1.Appearance.Options.UseFont = true;
             simpleButton1.Dock = DockStyle.Left;
             simpleButton1.Location = new Point(0, 0);
+            simpleButton1.Margin = new Padding(4);
             simpleButton1.Name = "simpleButton1";
-            simpleButton1.Size = new Size(200, 27);
+            simpleButton1.Size = new Size(300, 39);
             simpleButton1.TabIndex = 0;
             simpleButton1.Text = "Save";
             // 
             // CrawDataForm
             // 
-            AutoScaleDimensions = new SizeF(6F, 13F);
+            AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(987, 576);
+            ClientSize = new Size(1480, 842);
             Controls.Add(splitContainerControl1);
             Controls.Add(barDockControlLeft);
             Controls.Add(barDockControlRight);
             Controls.Add(barDockControlBottom);
             Controls.Add(barDockControlTop);
+            Margin = new Padding(4);
             Name = "CrawDataForm";
             Text = "CrawDataForm";
             Load += CrawDataForm_Load;

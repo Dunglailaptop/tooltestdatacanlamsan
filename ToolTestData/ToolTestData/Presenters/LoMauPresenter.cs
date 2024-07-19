@@ -42,7 +42,7 @@ namespace ToolTestData.Presenters
             {
                 // Chỉ định các cột cần thiết
 
-                List<string> loMauColumns = new List<string> { "STT","SoBienLai", "MaSoNhaCungCap", "TrangThaiHieuLuc","NgayTao" }; // Thay bằng tên các cột thực tế
+                List<string> loMauColumns = new List<string> { "STT","MaSoLoMau","SoBienLai", "MaSoNhaCungCap", "TrangThaiHieuLuc","NgayTao" }; // Thay bằng tên các cột thực tế
                 List<string> tuiMauColumns = new List<string> { "ColumnA", "ColumnB", "ColumnC" }; // Thay bằng tên các cột thực tế
 
              
